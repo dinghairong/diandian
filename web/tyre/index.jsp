@@ -56,9 +56,9 @@
     <div class="content-box3">
         <form id="store" action="<%=ctx%>/tyre/saveStore.do" method="POST" enctype="multipart/form-data">
             <ul>
-                <li>门店名称 <input class="boxt_input" id="storename" name="store.storename" type="text"  onblur="if(this.value == ''){$('.name_error').show();}else{$('.name_error').hide();}"/> <br><span class="name_error">*请输入门店名称</span></li>
-                <li>联&nbsp;系&nbsp;人&nbsp;&nbsp; <input class="boxt_input" id="linkman" name="store.linkman" type="text" onblur="if(this.value == ''){$('.linkman_error').show();}else{$('.linkman_error').hide();}"/><br><span class="linkman_error">*请输入联系人</span></li>
-                <li>联系电话 <input class="boxt_input" id="mobile" name="store.mobile" type="text"  onblur="if(this.value == ''){$('.mobile_error').show();}else{$('.mobile_error').hide();}"/><br><span class="mobile_error">*请输入联系电话</span></li>
+                <li>门店名称 <input class="boxt_input" id="storename" name="store.storename" type="text"  onblur="validateStoreName()"/> <br><span class="name_error" style="display: none">*请输入门店名称</span><span class="name_exist" style="display: none">*该门店已经入驻</span></li>
+                <li>联&nbsp;系&nbsp;人&nbsp;&nbsp; <input class="boxt_input" id="linkman" name="store.linkman" type="text" onblur="if(this.value == ''){$('.linkman_error').show();}else{$('.linkman_error').hide();}"/><br><span class="linkman_error" style="display: none">*请输入联系人</span></li>
+                <li>联系电话 <input class="boxt_input" id="mobile" name="store.mobile" type="text"  onblur="if(this.value == ''){$('.mobile_error').show();}else{$('.mobile_error').hide();}"/><br><span class="mobile_error" style="display: none">*请输入联系电话</span></li>
                 <li>省份  <select class="boxt_input2" id="provinceSelect" style="width:100px">
                     <%
                         for(int i = 0;i < areaList.size();i++){
@@ -83,7 +83,7 @@
 
                 </li>
                 <input type="hidden" id="areaid" name="store.areaid" value="">
-                <li>详细地址 <input class="boxt_input" id="address" name="store.address" type="text" onblur="if(this.value == ''){$('.address_error').show();}else{$('.address_error').hide();}"/><br><span class="address_error">*请输入详细地址</span></li>
+                <li>详细地址 <input class="boxt_input" id="address" name="store.address" type="text" onblur="if(this.value == ''){$('.address_error').show();}else{$('.address_error').hide();}"/><br><span class="address_error" style="display: none">*请输入详细地址</span></li>
             </ul>
             <div class="boxt_ch"><img src="../assets/images/md_02.jpg"/></div>
             <div class="boxt_jia">
@@ -92,7 +92,7 @@
                         <img id="preview1" width="-1" height="-1" style="display: none" />
                     </div>
                 </div>
-                <div class="boxt_jia2"><input class="boxt_jia1" type="button"  name="" value="+" onclick="addLicense()"/><span class="license_error" style="font-size: small">*请上传营业执照</span></div>
+                <div class="boxt_jia2"><input class="boxt_jia1" type="button"  name="" value="+" onclick="addLicense()"/><span class="license_error" style="font-size: small;display: none">*请上传营业执照</span></div>
                 <div>
                     <input type="file" name="filelicense" id="filelicense" hidden/>
                 </div>
@@ -103,7 +103,7 @@
                         <img id="preview2" width="-1" height="-1" style="display: none" />
                     </div>
                 </div>
-                <div class="boxt_jia2"><input class="boxt_jia1" type="button" name="" value="+" onclick="addLogo()"/><span class="logo_error" style="font-size: small">*请上传门头照片</span></div>
+                <div class="boxt_jia2"><input class="boxt_jia1" type="button" name="" value="+" onclick="addLogo()"/><span class="logo_error" style="font-size: small;display: none">*请上传门头照片</span></div>
                 <div>
                     <input type="file" name="filelogo" id="filelogo" hidden/>
                 </div>
@@ -133,12 +133,6 @@
 </body>
 <script type="text/javascript">
     $(function(){
-        $('.name_error').hide();
-        $('.linkman_error').hide();
-        $('.mobile_error').hide();
-        $('.address_error').hide();
-        $('.license_error').hide();
-        $('.logo_error').hide();
     });
     $('#provinceSelect').change(function(){
         var pid = this.options[this.selectedIndex].value;
@@ -159,6 +153,35 @@
         });
     });
 
+    function validateStoreName(){
+        var storename = $('#storename').val();
+        if(storename == ''){
+            $('.name_error').show();
+        }else{
+            $('.name_error').hide();
+            var uri=encodeURI("<%=ctx%>/tyre/getStoreByName.do?storename="+storename);
+            $.ajax({
+                url: uri,
+                type: "get",
+                dataType: "JSON",
+                async: false,
+                success: function(ret){
+                    if(ret.exist == "true"){
+                        $('.name_exist').show();
+                    }else{
+                        $('.name_exist').hide();
+                    }
+                },
+                error: function(XMLRequest, textInfo){
+                    if(textInfo != null){
+                        alert(textInfo);
+                    }
+                }
+            });
+
+        }
+    }
+
     function saveInfo(){
         var storename = $('#storename').val();
         var linkman = $('#linkman').val();
@@ -168,7 +191,7 @@
         var fileLicense = $("#filelicense").val();
         var fileLogo = $("#filelogo").val();
         $('#areaid').val(areaid);
-
+        var exist;
         if(storename.length == 0){
             $('.name_error').show();
             return false;
@@ -178,6 +201,28 @@
                 return false;
             }else{
                 $('.name_error').hide();
+                var uri=encodeURI("<%=ctx%>/tyre/getStoreByName.do?storename="+storename);
+
+                $.ajax({
+                    url: uri,
+                    type: "get",
+                    dataType: "JSON",
+                    async: false,
+                    success: function(ret){
+                        if(ret.exist == "true"){
+                            $('.name_exist').show();
+                            exist= false;
+                        }else{
+                            $('.name_exist').hide();
+                            exist= true;
+                        }
+                    },
+                    error: function(XMLRequest, textInfo){
+                        if(textInfo != null){
+                            alert(textInfo);
+                        }
+                    }
+                });
             }
         }
         if(linkman.length == 0){
@@ -225,7 +270,9 @@
         }else{
             $('.logo_error').hide();
         }
-        $('#submit').trigger("click");
+        if(exist){
+            $('#submit').trigger("click");
+        }
     }
 
 

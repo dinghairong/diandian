@@ -10,10 +10,12 @@
 
 
 			<action name="saveStore" class="com.smart4c.action.diandian.TyreAction" method="saveStore">
-				<result type="redirect">/tyre/index.do</result>
+				<result name="success">/tyre/success.jsp</result>
 			</action>
 
 			<action name="getCityByProvince" class="com.smart4c.action.diandian.TyreAction" method="getCityByProvince"></action>
+
+			<action name="getStoreByName" class="com.smart4c.action.diandian.TyreAction" method="getStoreByName"></action>
 
 	    </package>
     </struts>

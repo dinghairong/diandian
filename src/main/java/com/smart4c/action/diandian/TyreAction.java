@@ -35,6 +35,8 @@ public class TyreAction  extends ActionSupport implements ServletResponseAware {
 
     private Store store;
 
+    private String storename;
+
     private HttpServletResponse response;
 
     private File filelogo;
@@ -82,6 +84,28 @@ public class TyreAction  extends ActionSupport implements ServletResponseAware {
             }
         }
         ret.put("html", html.toString());
+        try {
+            PrintWriter out = response.getWriter();
+            out.print(ret.toString());
+            out.flush();
+            out.close();
+        } catch (Exception e) {
+            MiscUtils.getLogger().info(e.toString());
+        }
+        return null;
+    }
+
+    public String getStoreByName(){
+        JSONObject ret = new JSONObject();
+        Store store = storeDao.findStoreByStoreName(storename);
+        if(null != store){
+            ret.put("exist","true");
+        }else{
+            ret.put("exist","false");
+        }
+        response.setContentType("application/json");
+        response.setCharacterEncoding("utf-8");
+
         try {
             PrintWriter out = response.getWriter();
             out.print(ret.toString());
@@ -220,5 +244,13 @@ public class TyreAction  extends ActionSupport implements ServletResponseAware {
 
     public void setFilelicense(File filelicense) {
         this.filelicense = filelicense;
+    }
+
+    public String getStorename() {
+        return storename;
+    }
+
+    public void setStorename(String storename) {
+        this.storename = storename;
     }
 }
