@@ -1,0 +1,217 @@
+@CHARSET "UTF-8";
+
+body {
+	min-width: 960px;
+}
+
+div#regist {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 960px;
+}
+
+div#regist div#header {
+	width: 640px;
+	height: 53px;
+	background: url('../images/register.png') no-repeat 20px top;
+	border-bottom: 2px solid #FF2E16;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+div#regist div#header span {
+	display: block;
+	margin-left: 128px;
+	font-size: 1.2em;
+}
+
+div#regist div#header span#desc {
+	margin-top: 6px;
+	font-size: 0.6em;
+}
+
+div#regist ul#base_info {
+	width: 640px;
+	list-style-type: none;
+	/*border: 1px solid;*/
+	/*display: inline-block;*/
+	/*margin-left: 65px;*/
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-bottom: 84px;
+}
+
+div#regist ul#base_info li {
+	list-style: none;
+	margin-top: 13px;
+	position: relative;
+	/*border: 1px solid;*/
+}
+
+div#regist ul#base_info li span {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	font-size: 0.8em;
+	margin-right: 3px;
+	
+}
+
+div#regist ul#base_info li span span.required {
+	display: inline;
+	color: red;
+	padding: 0 2px;
+}
+
+div#regist ul#base_info li input[type="text"], input[type="password"] {
+	font-size: 0.8em;
+	padding: 3px;
+	width: 240px;
+}
+
+div#regist ul#base_info li input[type="text"].vcode {
+	width: 115px;
+	margin-right: 5px;
+}
+
+div#regist ul#base_info li img#vcode {
+	display: inline-block;
+	height: 25px;
+	width: 55px;
+	top: 0px;
+	position: absolute;
+}
+
+div#regist ul#base_info li span#change_pic {
+	display: inline;
+	margin-left: 60px;
+}
+
+div#regist ul#base_info li a {
+	color: red;
+	font-size: 0.8em;
+	margin-left: 2px;
+}
+
+div#regist ul#base_info li div.button {
+	display: inline-block;
+	padding: 8px 5px;
+	background-color: #E5E3E4;
+	color: #8D8C8D;
+}
+
+div#regist ul#base_info li a.link_button {
+	display: inline-block;
+	padding: 8px 5px;
+	background-color: #E5E3E4;
+	color: #8D8C8D;
+	margin-left: 13px;
+}
+
+div#regist ul#base_info li.upload {
+	
+}
+
+div#regist ul#base_info li.upload>div {
+	display: inline-block;
+}
+
+div#regist ul#base_info li.upload>span {
+	position: relative;
+	top: -85px;
+}
+ 
+div#regist ul#base_info li.upload span.tip { /* all */
+	font-size: 0.5em;
+	color: red;
+	display: block;
+	text-align: left;
+	width: 250px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { /* Safari and Chrome */
+	div#regist ul#base_info li.upload span.tip  {
+		font-size: 0.5em;
+		-webkit-transform: scale(0.9);
+		color: red;
+		display: block;
+		text-align: left;
+		width: 290px;
+		position: relative;
+		left: -10px;
+		top: -30px;
+	}	
+}
+
+@-moz-document url-prefix() { /*FireFox*/
+ 	div#regist ul#base_info li.upload span.tip {
+		font-size: 0.7em;
+		color: red;
+		display: block;
+		text-align: left;
+		position: relative;
+		top: -30px;
+	}
+
+	div#regist div#header {
+		height: 59px;
+	}
+}
+
+div#regist ul#base_info li.upload img {
+	display: inline-block;
+	height: 169px;
+	width: 299px;
+	margin: 0;
+}
+
+div#regist ul#base_info li select {
+	padding: 0 3px;
+	font-size: 0.8em;
+}
+
+div.operation {
+	margin: 0 auto;
+	width: 415px;
+	height: 49px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+	position: relative;
+
+}
+
+div.submit {
+	display: inline-block;
+	/*padding: 8px 12px;*/
+	width: 169px;
+	line-height: 49px;
+	background-color: #FF9900;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+}
+
+div.back {
+	display: inline-block;
+	/*padding: 8px 12px;*/
+	width: 169px;
+	line-height: 49px;
+	background-color: #A8A8A8;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 71px;
+	position: absolute;
+	right: 0;
+}
+
+div.center {
+	position: inherit;
+}
+
+div#regist ul#base_info li input#txt_address {
+	margin-left: 153px;
+	width: 320px;
+}

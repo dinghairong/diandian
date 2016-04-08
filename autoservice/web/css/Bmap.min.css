@@ -1,0 +1,282 @@
+
+.BMapLib_SearchInfoWindow {
+    background-color: #fff;
+    border: 1px solid #bababa;
+    border-radius: 6px;
+    cursor: default;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 5px;
+    position: absolute;
+}
+.BMapLib_SearchInfoWindow form, .BMapLib_SearchInfoWindow ul, .BMapLib_SearchInfoWindow li {
+    margin: 0;
+    padding: 0;
+}
+.BMapLib_SearchInfoWindow img {
+    border: 0 none;
+}
+.BMapLib_SearchInfoWindow ul {
+    list-style: outside none none;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_top {
+    height: 26px;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_title {
+    color: #d12a3e;
+    font-size: 13px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    padding: 0 5px;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_title span {
+    margin-right: 10px;
+    vertical-align: 8px;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_title img {
+    height: 25px;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_tools {
+    height: 25px;
+    padding-right: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 64px;
+    z-index: 10000;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_tools div {
+    cursor: pointer;
+    float: right;
+    height: 25px;
+    overflow: hidden;
+    width: 22px;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_close {
+    background: rgba(0, 0, 0, 0) url("http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/iw_close.gif") no-repeat scroll center center;
+}
+.BMapLib_SearchInfoWindow .BMapLib_sendToPhone {
+    background: rgba(0, 0, 0, 0) url("http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/phone.png") no-repeat scroll center center;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_center {
+    z-index: 3;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_content {
+    color: #666;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 5px;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_content span {
+    background-color: #fef1e1;
+    display: inline-block;
+    font-size: 0;
+    height: 12px;
+    margin-right: 5px;
+    overflow: hidden;
+    vertical-align: -2px;
+    width: 60px;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_content span i {
+    background-color: #ff9a66;
+    display: block;
+    height: 100%;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_content a {
+    margin-left: 12px;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_content button {
+    background-color: #f89073;
+    border: medium none;
+    color: #fff;
+    height: 30px;
+    margin-bottom: 9px;
+    margin-top: 10px;
+    outline: medium none;
+    padding: 0;
+    width: 100px;
+}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_bottom {
+    display: block;
+    z-index: 2;
+}
+.BMapLib_SearchInfoWindow .BMapLib_trans {
+    bottom: -31px;
+    position: absolute;
+    z-index: 5;
+}
+.BMapLib_SearchInfoWindow .BMapLib_nav {
+    height: 75px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+}
+.BMapLib_SearchInfoWindow .BMapLib_nav input {
+    vertical-align: middle;
+}
+.BMapLib_SearchInfoWindow .iw_bt, .BMapLib_SearchInfoWindow .iw_bt_down, .BMapLib_SearchInfoWindow .iw_bt_over {
+    background: rgba(0, 0, 0, 0) url("http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/iw_bg.png") no-repeat scroll 0 -87px;
+    border: 0 none;
+    cursor: pointer;
+    height: 26px;
+    line-height: 18px;
+    padding: 0;
+    vertical-align: middle;
+    width: 48px;
+}
+.BMapLib_SearchInfoWindow .iw_bt_over {
+    background-position: -52px -87px;
+}
+.BMapLib_SearchInfoWindow .iw_bt_down {
+    background-position: -104px -87px;
+    font-weight: 700;
+}
+.BMapLib_search_text {
+    border: 1px solid #a5acb2;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+.BMapLib_trans_text {
+    border: 1px solid #a5acb2;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+.BMapLib_nav_tab {
+    background: rgba(0, 0, 0, 0) url("http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/iw_bg.png") repeat-x scroll 0 0;
+    height: 30px;
+    width: 100%;
+}
+.BMapLib_nav_tab li {
+    border-left: 1px solid #dadada;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    overflow: hidden;
+    padding-top: 5px;
+    position: relative;
+    text-align: center;
+    width: 114px;
+}
+.BMapLib_nav_tab .BMapLib_icon {
+    background: rgba(0, 0, 0, 0) url("http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/iw_bg.png") no-repeat scroll 0 -136px;
+    display: inline-block;
+    height: 15px;
+    margin-right: 7px;
+    position: relative;
+    top: 3px;
+    width: 10px;
+}
+.BMapLib_nav_tab .BMapLib_icon_tohere {
+    background-position: -15px -136px;
+}
+.BMapLib_nav_tab .BMapLib_icon_nbs {
+    background-position: -30px -136px;
+    height: 14px;
+    width: 14px;
+}
+.BMapLib_nav_tab li.BMapLib_first {
+    border-left: 0 none;
+}
+.BMapLib_nav_tab li:hover {
+    text-decoration: none;
+}
+.BMapLib_nav_tab li.BMapLib_current {
+    background: rgba(0, 0, 0, 0) url("http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/iw_bg.png") repeat-x scroll 0 -44px;
+    color: #4d4d4d;
+    cursor: default;
+}
+.BMapLib_nav_tab_content li {
+    font-family: "宋体";
+    height: 22px;
+    padding: 10px 0 0;
+    position: relative;
+}
+.BMapLib_sms_tab_container {
+    background: #fcfcfc none repeat scroll 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    position: relative;
+    z-index: 20;
+}
+.BMapLib_sms_pnl_phone {
+    border-top: 1px solid #f2f2f2;
+    font-size: 12px;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 10;
+}
+.BMapLib_ap {
+    float: left;
+    height: 172px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 263px;
+}
+.BMapLib_ap th {
+    font-weight: normal;
+    text-align: right;
+}
+.BMapLib_mp {
+    background: #f6f6f6 none repeat scroll 0 0;
+    height: 152px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+}
+.BMapLib_mp_title {
+    font-weight: bold;
+    height: 18px;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+.BMapLib_msgContent {
+    font-size: 12px;
+    line-height: 16px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.BMapLib_popup_close {
+    background: transparent url("iw_close.gif") no-repeat scroll center center;
+    border: 0 none;
+    cursor: pointer;
+    height: 13px;
+    padding: 10px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 14px;
+    z-index: 50;
+}
+.BMapLib_sms_input {
+    ime-mode: disabled;
+}
+.BMapLib_sms_input_l {
+    width: 90px;
+}
+.BMapLib_sms_input_s {
+    width: 35px;
+}
+.BMapLib_sms_declare_phone {
+    color: #707070;
+}
+#BMapLib_sms_tip {
+    color: red;
+    padding-left: 20px;
+}
+#BMapLib_success_tip {
+    color: red;
+    font-size: 12px;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+#BMapLib_activateTip {
+    color: red;
+    padding-left: 5px;
+}

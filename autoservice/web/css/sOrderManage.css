@@ -1,0 +1,205 @@
+#bodySection{
+    font-size: 12px;
+}
+.container_24 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.container_24 .grid_11 {
+    width: 380px;
+}
+.container_24 .grid_10 {
+    width: 570px;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16, .grid_17, .grid_18, .grid_19, .grid_20, .grid_21, .grid_22, .grid_23, .grid_24, .grid_25 {
+    display: inline;
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+    position: relative;
+}
+.logo {
+    color: #4c8de5;
+    float: left;
+    font-size: 28px;
+    font-weight: bolder;
+    height: 135px;
+    text-align: center;
+    width: 200px;
+}
+#headSection #naviBar {
+    background-color: #007fcc;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+#headSection #itemNavi > div a.current, #headSection #itemNavi > div a:hover {
+    background-color: #007fcc;
+}
+#headSection #topBar a {
+    color: #007fcc;
+}
+
+
+#logindisplay {
+    color: black;
+    display: block;
+    font-size: 1.1em;
+    margin: 10px;
+    text-align: right;
+}
+#menucontainer {
+    margin-top: 60px;
+    text-align: right;
+}
+#menucontainer ul {
+    margin: 0;
+    padding: 0 0 2px;
+    position: relative;
+}
+p, ul {
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+#menucontainer ul.menus li {
+    display: inline-block;
+    list-style: outside none none;
+    margin-right: 1px;
+}
+#menucontainer ul.menus li a {
+    background-color: #e8eef4;
+    color: #08c;
+    font-weight: bold;
+    line-height: 2.8em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#main {
+    background-color: #fff;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
+h2 {
+    padding: 0 0 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-size: 1.5em;
+}
+table {
+    border: 1px solid #e8eef4;
+    border-collapse: collapse;
+    clear: both;
+    width: 100%;
+}
+table tbody th {
+    text-align: left;
+}
+table th {
+    background-color: #e8eef4;
+    border: 1px solid #e8eef4;
+    padding: 6px 5px;
+    text-align: left;
+}
+table td {
+    border: 1px solid #e8eef4;
+    padding: 5px;
+}
+input.ui-button {
+    padding: 0.4em 1em;
+}
+.ui-button {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.1em;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+}
+.ui-corner-all {
+    border-radius: 5px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: url("images/ui-bg_glass_85_dfeffc_1x400.png") repeat-x scroll 50% 50% #dfeffc;
+    border: 1px solid #c5dbec;
+    color: #2e6e9e;
+    font-weight: bold;
+}
+.ui-widget {
+    font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+    font-size: 1.1em;
+}
+
+.userinfobody {
+    background-color: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 0 0 10px rgba(28, 28, 28, 0.3);
+    color: #999;
+    font-size: 12px;
+    width: 480px;
+}
+.userinfobody .userinfoarea {
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    line-height: 35px;
+    margin: 5px auto auto;
+    text-align: center;
+    width: 460px;
+}
+.userinfobody .userinfoform {
+    background-color: #f7f7f7;
+    border: 0 none;
+    margin: auto;
+    width: 460px;
+}
+.check_service_num_span{
+    font-size: 14px;
+    margin: 20px auto 0;
+    text-align: center;
+    width: 270px;
+}
+.check_service_num_text{
+    margin: 20px auto 0;
+    text-align: center;
+    width: 200px;
+}
+.check_service_num_text input{
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    width: 180px;
+}
+.check_service_pos_span{
+    font-size: 14px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.check_service_pos_text{
+    margin: 20px auto 0;
+    text-align: center;
+    width: 200px;
+}
+.check_service_pos_text input{
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    width: 180px;
+}
+.check_service_put{
+    border: 1px solid;
+    border-radius: 5px;
+    height: 25px;
+    line-height: 25px;
+    margin: 20px auto 0;
+    text-align: center;
+    width: 100px;
+}

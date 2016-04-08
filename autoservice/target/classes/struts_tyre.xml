@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+	<struts>
+	    <package name="tyre" extends="struts-default" namespace="/tyre">
+
+			<action name="index" class="com.smart4c.action.diandian.TyreAction" method="index">
+				<result name="success">/tyre/index.jsp</result>
+			</action>
+
+
+			<action name="saveStore" class="com.smart4c.action.diandian.TyreAction" method="saveStore">
+				<result type="redirect">/tyre/index.do</result>
+			</action>
+
+			<action name="getCityByProvince" class="com.smart4c.action.diandian.TyreAction" method="getCityByProvince"></action>
+
+	    </package>
+    </struts>

@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+div#service_select {
+	width: 844px;
+	margin: 0 auto;
+	margin-top: 43px;
+	display: none;
+}
+
+div#service_select>div {
+
+}
+
+div#service_select>div span.title {
+	display: block;
+	font-size: 1.2em;	
+	text-align: left;
+}
+
+div#service_select>div span.desc {
+	margin-top: 6px;
+	font-size: 0.6em;
+}
+
+table {
+	border: thin solid #E0E0E0;
+	border-collapse: collapse;
+	font-size: 0.8em;
+	width: 844px;
+	margin: 0 auto;
+	margin-top: 28px;
+}
+
+td, th {
+	border: thin solid #E0E0E0;
+	padding: 2px;
+}
+
+td {
+	color: ##777777
+}
+
+th {
+	word-break: keep-all;
+}
+
+td.auto_width {
+	word-break: keep-all;
+}
+
+td.nbsp {
+	height: 1em;
+}
+
+td.center {
+	text-align: center;
+}
+
+td.color_even {
+	background-color: #B7E0FC;
+}
+
+td.color_odd {
+	background-color: #8ECAFA;
+}
+
+td.price {
+	width: 98px;
+}
+
+td.cb {
+	width: 50px;
+}
+
+
+
+

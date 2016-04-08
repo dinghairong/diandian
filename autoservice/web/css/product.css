@@ -1,0 +1,153 @@
+.top_line{
+	border-top: 2px solid #007fcc;
+}
+.bread_navi a{
+	color: #828282;
+}
+#bodySection #Product #product_left {
+    /*float: left;*/
+    width: 1000px;
+    margin-top:10px;
+}
+.proudct_price{
+	color: #888;
+	height: 84px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.proudct_price1{
+	height: 22px;
+	line-height: 22px;
+	top: 10px;
+	position: relative;
+}
+.proudct_price2{
+	height: 22px;
+	line-height: 22px;
+}
+.proudct_service_time{
+	color: #888;
+	font-size: 14px;
+	height: 22px;
+	line-height: 22px;
+	margin-left: 20px;
+}
+.proudct_service{
+	color: #888;
+    display: block;
+    font-size: 14px;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.proudct_service div{
+	display: inline;
+}
+.proudct_service div label{
+	background-color: #7fbfe5;
+	color: #fff;
+    display: inline-block;
+    font-family: "宋体";
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    padding: 0 15px;
+}
+.proudct_number{
+	color: #888;
+	display: inline;
+	font-size: 14px;
+	/*margin-top: 20px;*/
+	position: relative;
+	top: 20px;
+}
+.proudct_number div{
+	display: inline-block;
+}
+.proudct_paid{
+	margin-top: 20px;
+}
+.product_title{
+	color: #888;
+	font-size: 14px;
+}
+
+
+
+#product_left .has_border {
+    border: 1px solid #e3e3e3;
+    font-size: 14px;
+}
+#product_left .comment_detail {
+    clear: both;
+    margin-top: 10px;
+}
+#product_left .arrow-s-r {
+    border-color: transparent #ff551a transparent transparent;
+    border-style: solid;
+    border-width: 27px 27px 0 0;
+    display: inline-block;
+    position: absolute;
+    top: 42px;
+    transform: rotate(-180deg);
+}
+#product_left .small {
+    color: #ffff00;
+    font-size: 12px;
+    left: 2px;
+    position: absolute;
+    top: 42px;
+}
+
+#bodySection #Product #product_left #product_introduce .comments .comment_detail .comment_items .comment_item .comment_context .comment_top .comment_percent_area .comment_percent {
+    background-color: #ddd;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 100px;
+}
+#product_left .comment_title, #product_left .comment_cc {
+    margin: 20px 20px 0;
+    overflow: hidden;
+    width: 100%;
+}
+#product_left .comment_title span {
+    color: #999;
+    display: inline-block;
+    float: left;
+}
+#product_left .comment_title p, #product_left .comment_cc p {
+    display: inline-block;
+    float: left;
+    margin: 0;
+}
+#product_left .comment_cc span {
+    color: #999;
+    display: inline-block;
+    float: left;
+}
+#product_left .comment_cc .p_hei {
+    width: 650px;
+    word-break: break-all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

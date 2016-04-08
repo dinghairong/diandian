@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+
+body {
+	min-width: 960px;
+}
+
+div#body {
+	padding-top: 48px;
+}
+
+div#header span，div#btn_next {font-size: 1.2em;}
+
+div#header span#desc, div.next span {font-size: 0.8em;}
+
+ul.regist span, ul.regist input {font-size: 0.9em;}
+
+div#header span#desc, div.next span, ul.regist span {color: #6F6F6F;}
+
+div#header {
+	width: 640px;
+	height: 53px;
+	background: url('../images/register.png') no-repeat 20px top;
+	margin: 0 auto;
+	border-bottom: 2px solid #FF2E16;
+	padding-top: 10px;
+}
+
+div#header span {
+	display: block;
+	margin-left: 128px;
+}
+
+div#header span#desc {
+	margin-top: 6px;
+}
+
+ul.regist {
+	width: 760px; 
+	margin: 20px auto;
+	padding: 30px 0 0 96px;
+/*border: 1px solid;*/
+}
+
+ul.regist li {
+	margin-bottom: 20px;
+}
+
+ul.regist div {
+	display: inline-block;
+	text-align: right;
+	margin-right: 9px;
+	width: 120px;	
+}
+
+ul.regist em {
+	position: relative;
+	top: 4px;
+	color: #FF8C55;
+}
+
+ul.regist option {
+	font-size: 1.2em;
+}
+
+ul.regist input {
+	height: 2em;
+	width: 17.5em;	
+	padding-left: 10px;
+}
+
+input#href_addr {
+	width: 30em;
+}
+
+input#desc_addr {
+	width: 30em;
+}
+
+div.next {
+	width: 330px;
+	margin: 0 auto;
+	padding: 24px 144px 88px 0;
+}
+
+input[type="checkbox"] {
+	margin: 0 10px 16px 0;
+}
+
+div#btn_next {
+	width: 221px;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	background-color: #FE9A05; 
+	color: #ffffff;
+	border: 1px solid;
+}
+
+@-moz-document url-prefix() { /*FireFox*/
+	div#header {
+		height: 59px;
+	}
+}

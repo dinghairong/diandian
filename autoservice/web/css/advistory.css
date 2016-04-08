@@ -1,0 +1,128 @@
+#bodySection{
+	font-size: 14px;
+}
+.top_line{
+	border-top: 2px solid #007fcc;
+}
+#bodySection #ListLeft {
+    border-top: 2px solid #007fcc;
+    float: left;
+    width: 230px;
+}
+
+#bodySection input{
+    border: 1px solid #7f9db9;
+}
+#bodySection #ListLeft .leftNavi {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #ddd #ddd;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+.title_unselect_div {
+    font-size: 14px;
+}
+.title_select_div {
+    border-bottom: 1px dotted #c4c4c4;
+    font-size: 14px;
+}
+.leftNavi_div{
+	text-align: center;
+	line-height: 45px;
+}
+.title_select {
+    color: #007fcc;
+}
+.title_list{
+	font-size: 18px;
+	background-color: #f4f4f4;
+}
+.title_list_div1 {
+    border-bottom: 1px dotted #c4c4c4;
+    font-size: 15px;
+}
+.title_list_div2 {
+    border-bottom: 1px solid #c4c4c4;
+    font-size: 15px;
+}
+.title_list_div3 {
+	border-bottom: 1px dotted #c4c4c4;
+    border-top: 1px solid #c4c4c4;
+    font-size: 15px;
+}
+
+.grid_19 {
+    width: 730px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.grid_19 table {
+    line-height: 22px;
+    margin: 0;
+    width: 100%;
+}
+.grid_19 table tr {
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+}
+.grid_19 table tr th {
+    font: 16px "微软雅黑";
+    text-align: center;
+}
+.grid_19 table tr td {
+    border-bottom: 1px dotted #e3e3e3;
+    border-right: 1px dotted #e3e3e3;
+    border-top: 1px dotted #e3e3e3;
+    font-family: regular;
+    font-size: 12px;
+    padding: 8px 15px 8px 20px;
+}
+.grid_19 table tr td ul li {
+    list-style-image: url("../img/dot.png");
+}
+
+.problemlist {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.problemlist li {
+    float: left;
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 590px;
+}
+.problem_list_span {
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    display: none;
+}
+.advisory_common_content{
+    width:600px;
+    height:160px;
+    max-width:745px;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+}
+.advisory_common_submit{
+    background-color: #007fcc;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    color: white;
+    display: inline-block;
+    height: 28px;
+    line-height: 25px;
+    text-align: center;
+    width: 80px;
+}

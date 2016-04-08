@@ -1,0 +1,29 @@
+.banner{  width: 1000px;  height: 140px;  margin: 0px auto;  clear: both;  }
+.logo{  width:200px;  height: 140px;  float: left;  text-align: center;  color: #4c8de5;  font-size: 28px;  font-weight: bolder;  }
+.logo span{  font-size: 16px;  color: #ff8500;  font-family: 方正静蕾简体;  margin-top: 10px;  display: block;  }
+.logo_cont{  width: 100%;  height: 80px;  margin-top: 30px;  }
+
+.yebz_jd{width: 755px;height: 48px;float: right;background: url(../images/yebz_ddlc_back.png) no-repeat center;margin-top: 48px;}
+.yebz_jd_cont{width: 33.33%;height: 100%;float: left;text-align: center;}
+.yebz_jd_contspan1{width: 124px;height: 24px;margin: 12px auto;font-size: 15px;color: #ff8500;line-height: 24px;}
+.yebz_jd_contspan1 p{display: block;width: 24px;height: 24px;float: left;background: url(../images/lc_quan1.png) no-repeat center;color: #fff;font-size: 13px;text-align: center;line-height: 24px;}
+.yebz_jd_contspan2{width: 124px;height: 24px;margin: 12px auto;font-size: 15px;color: #cbcbcb;line-height: 24px;}
+.yebz_jd_contspan2 p{display: block;width: 24px;height: 24px;float: left;background: url(../images/lc_quan2.png) no-repeat center;color: #fff;font-size: 13px;text-align: center;line-height: 24px;}
+
+
+
+.yebz_cont{width: 1000px;height: 272px;margin: 0 auto;border: 1px solid #e6e6e6;}
+.yebzc_cont{width: 100%;height: 50%;border-bottom: 1px dashed #e6e6e6;position: relative;padding-top: 45px;}
+.yebzc_contp{display: block;width: 600px;overflow: hidden;margin-left: 350px;font-size: 17px;text-align: left;}
+.yebzc_contp span{font-size: 12px;color: #000;}
+.yebzc_contp span a{color: #007fcc;}
+.yebzc_cont img{position: absolute;top: 45px;left: 300px;}
+.yebz_contp{color: #535353;font-size: 12px;text-align: center;margin-top: 20px;line-height: 1.5;}
+.yebz_cont_jxfw{width: 104px;height: 33px;line-height: 33px;text-align: center;color: #fff;font-size: 14px;background-color: #ff551a;display: block;float: right;margin-right: 35px;}
+.yebz_cont_jxfw:hover,.tjcg_ljzf:hover,.yy_jiesuan a:hover{opacity: 0.7;filter: alpha(opacity=70);}
+.cheng{color: #ff551a;}
+.fen_back{background-color: #fff9f7;}
+
+
+.lv_back{background-color: #f5fdf5;}
+.lv{color: #72a114;}

@@ -1,0 +1,49 @@
+.top_line{
+    border-top: 2px solid #007fcc;
+}
+.qyyh_lsddAll{
+    width: 100%;
+    overflow: hidden;
+    /*border-top: 3px solid #007fcc;*/
+    padding-bottom: 20px;
+}
+.qyyh_lsdd{
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: -1px 3px 10px #e5e5e5;
+    padding-bottom: 30px;
+    -webkit-box-shadow: -1px 3px 10px #e5e5e5;
+}
+.qyyh_lsdd .nav{
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #e5e5e5;
+    background: url(../images/qyyh_nav_back.png) no-repeat center;
+}
+.qyyh_lsdd .nav a{width: 20%;height: 100%;float: left;display: block;border-right: 1px solid #e5e5e5;font-size: 16px;color: #6c6c6c;text-align: center;}
+.qyyh_lsdd .nav  .on,.qyyh_lsdd .nav a:hover{color: #0076bd!important;}
+
+/**企业用户-统计**/
+.tjall{width: 100%;overflow: hidden;padding: 16px 0 47px 0;}
+.tjall_one{width: 100%;height: 36px;background-color: #eaf4f9;padding-left: 28px;color: #2f2f2f;line-height: 36px;}
+.tjall_one p{display: inline-block;float: left;font-size: 15px;margin-right: 35px;}
+.tjall_one span{float: left;font-size: 12px;}
+.tjall_one select{width: 83px;height: 26px;border: 1px solid #e8e8e9;margin: 5px 0 0 12px;font-size: 12px;padding-left: 15px;}
+.tjall h4{font-size: 16px;color: #3d3d3d;text-align: center;display: block;margin: 37px 0 60px 0;font-weight: 100;}
+.pie{width: 495px;height: 242px;margin: 0 0 122px 400px;}
+.pie .pie_cycle{width: 242px;height: 242px;float: left;margin-left: -150px; }
+.pie_tongji{width: 102px;height: 95px;float: right;margin-top: 108px;font-size: 14px;color: #3d3d3d;}
+.pie_tongji p{display: block;width: 100%;height: 15px;line-height: 15px;margin-bottom: 24px;}
+.pie_tongji p a{display: block;width: 36px;height: 15px;float: left;}
+.pie_tongji p span{float: right;}
+.pie_tongji p .lan{background-color: #1798e6!important;}
+.pie_tongji p .lv,.lineChartp span .lv{background-color: #33e121!important;}
+.pie_tongji p .cheng,.lineChartp span .cheng{background-color: #ff551a!important;}
+.lineChart{width: 965px;height: 315px;margin: auto;}
+.h4_two{margin-bottom: 36px!important;}
+.lineChartp{display: block;width: 240px;margin: 24px auto;margin-bottom: 0!important;height: 14px;font-size: 12px;color: #595959;line-height: 14px;}
+.lineChartp span{display: inline-block;float: left;}
+.lineChartp span a{display: block;width: 14px;height: 14px;float: left;margin-right: 10px;}
+.lineChartp .dier{margin-left: 59px;}

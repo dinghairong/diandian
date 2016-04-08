@@ -1,0 +1,118 @@
+.lafttitle{
+	text-align: center;
+	margin-top: 50px;
+}
+.lafttitle_name{
+	color: #636363;
+	font-size: 18px;
+	font-weight: bold;
+}
+.lafttitle_line1{
+	border-top: 2px solid  #636363;
+	margin-top: 10px;
+}
+.lafttitle_select{
+	
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.lafttitle_select span{
+	background: #007fcc none repeat scroll 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    line-height: 10px;
+    margin-right: 10px;
+    position: relative;
+    text-indent: -9999px;
+    width: 10px;
+}
+.lafttitle_select a{
+	color: #007fcc;
+}
+.lafttitle_line2{
+	border-top: 1px dotted #b7b7b7;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.lafttitle_unselect{
+	color: #444;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.lafttitle_unselect span{
+	background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    line-height: 10px;
+    margin-right: 10px;
+    position: relative;
+    text-indent: -9999px;
+    width: 10px;
+}
+.Products_list{
+	
+}
+.Products_list table{
+	width: 90%;
+	color: #959595;
+	font-size: 14px;
+    margin: 10px;
+}
+.Products_list tr{
+    width: 33%;
+}
+.Products_list table tr{
+	line-height: 30px;
+}
+.Products_list .price1{
+	color: #ff551a;
+    font-size: 18px;
+}
+.Products_list .price2{
+	margin-left: 20px;
+	text-decoration: line-through;
+}
+/*.Products_list a{
+	background-color: #ff551a;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
+}*/
+.addcartbtn{
+    background-color: #ff551a;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
+}
+.Products_list .addtocart{
+    float: right;
+   /* margin-right: 10px;*/
+}
+.Products_list .td1{
+    border-bottom: 2px solid #e1e1e1;
+    border-left: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    width:247px;
+}
+.Products_list .td2{
+    border-bottom: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    width:247px;
+}
+.Products_list .td3{
+    border-bottom: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    width:247px;
+}

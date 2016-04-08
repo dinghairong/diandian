@@ -1,0 +1,296 @@
+#bodySection{
+    font-size: 12px;
+}
+#bodySection input{
+    border: 1px solid #7f9db9;
+}
+#bodySection select{
+    border: 1px solid #7f9db9;
+}
+.container_24 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.container_24 .grid_11 {
+    width: 380px;
+}
+.container_24 .grid_10 {
+    width: 570px;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16, .grid_17, .grid_18, .grid_19, .grid_20, .grid_21, .grid_22, .grid_23, .grid_24, .grid_25 {
+    display: inline;
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+    position: relative;
+}
+.logo {
+    color: #4c8de5;
+    float: left;
+    font-size: 28px;
+    font-weight: bolder;
+    height: 135px;
+    text-align: center;
+    width: 200px;
+}
+#headSection #naviBar {
+    background-color: #007fcc;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+#headSection #itemNavi > div a.current, #headSection #itemNavi > div a:hover {
+    background-color: #007fcc;
+}
+#headSection #topBar a {
+    color: #007fcc;
+}
+
+#main {
+    background-color: #fff;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
+.title_select_div{
+    font-size:14px;
+    background-color: #007fcc;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.title_unselect_div{
+    font-size:14px;
+    margin-left: 20px;
+}
+#bodySection #ListLeft {
+    border-color: #007fcc #ddd #ddd;
+    border-style: solid;
+    border-width: 2px;
+    float: left;
+    height: 500px;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 230px;
+}
+.title_select{
+    color: white;
+    margin-left: 10px;
+}
+
+.tire_commodity_list{
+    margin-left:20px;
+    margin-top:20px;
+}
+.tire_commodity_list div{
+    margin-bottom:30px;
+}
+.tire_commodity_list select{
+    width:150px;
+    margin-left:10px;
+}
+.tire_commodity_list a{
+    margin-left:50px;
+    text-decoration: underline;
+}
+.check_submit_btn{
+    background-color: #ef5742;
+    border: 2px solid #ef5742;
+    border-radius: 5px;
+    float: right;
+    height: 40px;
+    margin-top: 50px;
+    text-align: center;
+    width: 150px;
+}
+
+.register {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 500px;
+}
+.step1 {
+    overflow: hidden;
+}
+.register-infobox {
+    border-right: 0px solid #e5e5e5;
+    float: left;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding-bottom: 40px;
+    width: 500px;
+}
+.biz_reg_tit {
+    border-bottom: 1px solid #ebebeb;
+    font-family: "Microsoft YaHei";
+    height: 32px;
+}
+.biz_reg_tit span {
+    color: #2e3032;
+    font-size: 26px;
+    line-height: 26px;
+}
+.biz_reg_tit em {
+    color: #666;
+    padding-left: 10px;
+}
+em, s, i {
+    font-style: normal;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+em, s, i {
+    font-style: normal;
+}
+.register .register-row {
+}
+.register-row {
+    height: 30px;
+    margin-top: 20px;
+}
+.register-row-left {
+    color: #666;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-right: 10px;
+    text-align: right;
+    width: 140px;
+}
+.register-row-left em {
+    color: #fa5f19;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.register .register-row-input {
+    position: relative;
+    width: 350px;
+}
+.register-row-input {
+    float: left;
+    width: 700px;
+}
+.register .phone, .register .password, .register .re-password {
+    width: 250px;
+}
+.pub-input {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c8c8c8;
+    color: #333;
+    font-size: 100%;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 4px;
+    vertical-align: middle;
+    width: 195px;
+}
+.pub-input {
+    border: 1px solid #b9b9b9;
+    color: #2e3032;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 5px;
+}
+.phone-error {
+    border: 1px solid #fa5f19;
+    color: #2e3032;
+    display: none;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-indent: 30px;
+    width: 248px;
+}
+.password-level {
+    height: 14px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.password-level.level1 .low, .password-level.level2 .low, .password-level.level3 .low, .password-level.level2 .middle, .password-level.level3 .middle, .password-level.level3 .high {
+    background-color: #28c7a7;
+}
+.password-level span {
+    background-color: #93e3d3;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    margin-right: 1px;
+    text-align: center;
+    width: 84px;
+}
+.biz_reg_upload {
+    height: 140px;
+    margin-top: 20px;
+}
+.biz_reg_img {
+    background: url("../img/reg_uploadimg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 140px;
+    margin-right: 20px;
+    width: 230px;
+}
+.pt10 {
+    padding-top: 10px;
+}
+.register-row-input a {
+    color: #fff;
+}
+.pub-func-btn {
+    background-color: #d8d8d8;
+    border: 1px solid #b9b9b9;
+    color: #666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 8px;
+}
+.biz_reg_imgr em {
+    color: #fa5f19;
+    line-height: 32px;
+}
+.register-row-input a {
+    color: #fff;
+}
+.pub-btn-middle-orange {
+    background-color: #fa5f19;
+    border-bottom: 1px solid #d14100;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "宋体",Hiragino Sans GB;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 20px;
+    text-align: center;
+}
+a:hover {
+    color: #999;
+    text-decoration: none;
+}
+.pub-btn-middle-left {
+    background-color: #fa5f19;
+    border-bottom: 1px solid #d14100;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "宋体",Hiragino Sans GB;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 20px;
+    text-align: center;

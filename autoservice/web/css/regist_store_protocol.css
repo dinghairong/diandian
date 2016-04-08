@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+/******************************************agreement start***************************************************/
+div#protocol {
+    width: 844px;
+    margin: 64px auto;
+    position: relative;
+    display: none;
+}
+
+div#protocol h1 {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #313131;
+    font-size: 1.2em;
+}
+
+div#protocol input {
+    border: none;
+    border-bottom: 1px #BFBFBF solid;
+    width: 240px;
+    /*font-size: 0.8em;*/
+    color: #6C6C6C;
+    padding: 0 3px;
+}
+
+div#protocol p {
+    line-height: 24px;
+    font-size: 0.8em;
+    color: #6C6C6C;
+    /*word-wrap:break-word; word-break:normal; */
+    /*border: 1px solid;*/
+}
+
+div#protocol p span {
+    display: inline-block;
+    width: 280px;
+}
+
+div#protocol p input.province {
+    padding: 0 3px;
+    width: 128px;
+}
+
+div#protocol p input.city {
+    padding: 0 3px;
+    width: 64px;
+}
+
+
+div#protocol p#addr input {
+    width: 480px;
+}
+
+div#protocol p#date input {
+    width: 32px;
+}
+
+div#protocol p#date input.year {
+    width: 64px;
+}
+
+div#protocol div#end * {
+    display: inline-block;
+    width: 320px;
+}
+
+div#protocol div#end p.right {
+    position: relative;
+    left: 180px;
+}
+
+div#protocol div#end p.empty {
+    height: 84px;
+    width: 100%;
+}
+
+div#protocol div#btn_agreement {
+    width: 332px;
+    margin: 32px auto;
+}
+
+div#protocol div#btn_agreement * {
+    display: inline-block;
+    width: 132px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #FE9A05;
+    color: #ffffff;
+}
+
+div#protocol div#btn_disagree {
+    margin-left: 57px;
+    background-color: #9D9D9D;
+}
+
+div#protocol p.yi {
+    color: red;
+}
+
+div#protocol p.yi>input[type="text"] {
+    border-color: red;
+}
+
+img#seal {
+    position: absolute;
+    left: -10px;
+    bottom: 145px;
+}
+
+/******************************************agreement end***************************************************/

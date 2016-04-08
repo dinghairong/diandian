@@ -1,0 +1,195 @@
+#bodySection{
+    font-size: 12px;
+}
+.top_line{
+    border-top: 2px solid #007fcc;
+}
+
+.qyyh_login{font-size: 15px;color: #6c6c6c;float: right;margin: -30px 18px 10px 0;}
+.qyyh_login span{color: #2c84be;margin-left: -90px;}
+
+.container_24 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.register {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 60px auto 0;
+    overflow: hidden;
+    width: 1000px;
+}
+.step1 {
+    overflow: hidden;
+}
+.register-infobox {
+    border-right: 0px solid #e5e5e5;
+    float: left;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding-bottom: 40px;
+    width: 1200px;
+}
+.biz_reg_tit {
+    border-bottom: 1px solid #ebebeb;
+    font-family: "Microsoft YaHei";
+    height: 32px;
+}
+.biz_reg_tit span {
+    color: #2e3032;
+    font-size: 26px;
+    line-height: 26px;
+}
+.biz_reg_tit em {
+    color: #666;
+    padding-left: 10px;
+}
+em, s, i {
+    font-style: normal;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+em, s, i {
+    font-style: normal;
+}
+.register .register-row {
+}
+.register-row {
+    height: 30px;
+    margin-top: 20px;
+}
+.register-row-left {
+    color: #666;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-right: 10px;
+    text-align: right;
+    width: 140px;
+}
+.register-row-left em {
+    color: #fa5f19;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.register .register-row-input {
+    position: relative;
+    width: 300px;
+}
+.register-row-input {
+    float: left;
+    width: 700px;
+}
+.register .phone, .register .password, .register .re-password {
+    width: 250px;
+}
+.pub-input {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c8c8c8;
+    color: #333;
+    font-size: 100%;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 4px;
+    vertical-align: middle;
+    width: 195px;
+}
+.pub-input {
+    border: 1px solid #b9b9b9;
+    color: #2e3032;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 5px;
+}
+.phone-error {
+    border: 1px solid #fa5f19;
+    color: #2e3032;
+    display: none;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-indent: 30px;
+    width: 248px;
+}
+.password-level {
+    height: 14px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.password-level.level1 .low, .password-level.level2 .low, .password-level.level3 .low, .password-level.level2 .middle, .password-level.level3 .middle, .password-level.level3 .high {
+    background-color: #28c7a7;
+}
+.password-level span {
+    background-color: #93e3d3;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    margin-right: 1px;
+    text-align: center;
+    width: 84px;
+}
+.biz_reg_upload {
+    height: 140px;
+    margin-top: 20px;
+}
+.biz_reg_img {
+    background: url("../img/reg_uploadimg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 140px;
+    margin-right: 20px;
+    width: 230px;
+}
+.pt10 {
+    padding-top: 10px;
+}
+.register-row-input a {
+    color: #fff;
+}
+.pub-func-btn {
+    background-color: #d8d8d8;
+    border: 1px solid #b9b9b9;
+    color: #666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 8px;
+}
+.biz_reg_imgr em {
+    color: #fa5f19;
+    line-height: 32px;
+}
+.register-row-input a {
+    color: #fff;
+}
+.pub-btn-middle-orange {
+    background-color: #007fcc;
+    border-bottom: 1px solid #007fcc;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "宋体",Hiragino Sans GB;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 20px;
+    text-align: center;
+    width: 150px;
+}
+select{
+    width:90px; 
+    height:28px;
+    font-size:14px;
+    border:1px solid #7f9db9;
+}

@@ -1,0 +1,109 @@
+body{
+	font-size: 14px;
+}
+.top_line{
+	border-top: 2px solid #007fcc;
+}
+.uc_content {
+    margin: auto;
+    position: relative;
+    width: 1000px;
+}
+#bodySection .siteNavi {
+    margin-left: 0;
+}
+#bodySection .siteNavi {
+    line-height: 36px;
+    margin: 4px 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+#bodySection .uc_content_Navi {
+    border-top: 2px solid #d12a3e;
+    float: left;
+    width: 230px;
+}
+#bodySection .uc_content_Navi .leftNavi {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #e3e3e3 #e3e3e3;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    margin-bottom: 16px;
+    padding-bottom: 14px;
+}
+#bodySection .uc_content_Navi .leftNavi h5.title_top {
+    margin: 0 0 4px;
+}
+#bodySection .uc_content_Navi .leftNavi h5 {
+    background: #f8f8f8 none repeat scroll 0 0;
+    font-size: 13px;
+    line-height: 35px;
+    margin: 14px 0 4px;
+    padding-left: 20px;
+}
+#bodySection .uc_content_Navi a {
+    display: block;
+    line-height: 24px;
+    margin-left: 41px;
+}
+#bodySection .uc_content_Navi a.current {
+    color: #d12a3e;
+}
+.r_content {
+    margin-left: 250px;
+    min-height: 304px;
+    width: 750px;
+}
+.uc_content .r_content .u_data {
+    height: 280px;
+    position: relative;
+}
+.r_content .w776 {
+    border: 1px solid #e3e3e3;
+    margin: 10px 0 0;
+    width: 750px;
+}
+.uc_content .user_address {
+    margin-top: 0;
+}
+.NewW750 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #d12a3e #e3e3e3 #e3e3e3;
+    border-image: none;
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    margin: 10px 0 0;
+    width: 750px;
+}
+.address_title {
+    background-color: #f5fdf5;
+    border: 1px dashed #d5ecd0;
+    color: #72a114;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px;
+    text-align: center;
+    width: 890px;
+}
+.address_title .div1 {
+    float: left;
+    margin-left: 390px;
+    margin-top: 4px;
+    width: 21px;
+}
+.add_address {
+    color: #72a114;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+}

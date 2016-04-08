@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+
+div.service {
+	border-top: 1px #E6E6E6 solid;
+	border-bottom: 1px #E6E6E6 solid;
+	background-color: #F8F8F8;
+}
+
+div.service ul {
+	width: 1024px;
+	text-align: center;	
+	margin: 2.2em auto;
+}
+
+ul.nav1, ul.nav2 {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ul.nav1 {
+	padding: 2em 0;
+}
+
+ul.nav2 {
+	padding: 0.6em 0;
+	background-color: #0080C9;
+}
+
+div.service li {
+	display: inline-block;
+	width: 19%;
+	border-right: 1px #E6E6E6 solid;
+}
+
+ul.nav1>li {
+	display: inline-block;
+	width: 170px;
+	text-align: left;
+	padding-left: 20px;
+/*border: 1px solid;*/
+}
+
+ul.nav1 li ul {
+	width: auto;
+	text-align: left;
+	margin: 0;
+}
+
+ul.nav1>li img {
+	width: 80px;
+}
+
+ul.nav2 li {
+	display: inline-block;
+	width: 62px;
+	border-right: 1px #ffffff solid;
+}
+
+div.service li.last, ul.nav2 li.last {
+	border: none;
+}
+
+div.service div {
+	margin: 8px 0;
+	font-weight: bold;
+}
+
+div.service span {
+	font-size: 0.8em;
+	color: #7A7A7A;
+}
+
+ul.nav2 span {
+	color: #ffffff;
+	font-size: 0.8em;
+}
+
+ul.nav1>li>span {
+	color: #7A7A7A;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+ul.nav1 ul span {
+	font-size: 0.8em;
+	color: #7A7A7A;
+	line-height: 1.5em;
+	/*border: 1px solid;*/
+}
+
+em.phone {
+    font-style: normal;
+    letter-spacing: 0;
+    color: #666666;	
+    font-size: 1.2em;
+}
+
+div.bottom {
+	width: 500px;
+	margin: 19px auto;
+	text-align: center;
+}
+
+div.bottom div {
+	margin-top: 16px;
+}
+div.bottom span {
+	font-size: 0.8em;
+}
+
+span.gray {
+	color: #7A7A7A;
+}

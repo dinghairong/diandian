@@ -1,0 +1,199 @@
+body{
+	font-size: 14px;
+}
+.top_line{
+	border-top: 2px solid #007fcc;
+}
+.uc_content {
+    margin: auto;
+    position: relative;
+    width: 1000px;
+}
+#bodySection .siteNavi {
+    margin-left: 0;
+}
+#bodySection .siteNavi {
+    line-height: 36px;
+    margin: 4px 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+#bodySection .uc_content_Navi {
+    border-top: 2px solid #007fcc;
+    float: left;
+    width: 230px;
+}
+#bodySection .uc_content_Navi .leftNavi {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #e3e3e3 #e3e3e3;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    margin-bottom: 16px;
+    padding-bottom: 14px;
+}
+#bodySection .uc_content_Navi .leftNavi h5.title_top {
+    margin: 0 0 4px;
+}
+#bodySection .uc_content_Navi .leftNavi h5 {
+    background: #f8f8f8 none repeat scroll 0 0;
+    font-size: 13px;
+    line-height: 35px;
+    margin: 14px 0 4px;
+    padding-left: 20px;
+}
+#bodySection .uc_content_Navi a {
+    display: block;
+    line-height: 24px;
+    margin-left: 41px;
+}
+.r_content {
+    margin-left: 250px;
+    min-height: 304px;
+    width: 750px;
+}
+.uc_content .r_content .u_data {
+    height: 280px;
+    position: relative;
+}
+.r_content .w776 {
+    border: 1px solid #e3e3e3;
+    margin: 10px 0 0;
+    width: 750px;
+}
+.uc_content .r_content .u_data .div1 {
+    border: 1px solid #e3e3e3;
+    float: left;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
+}
+.uc_content .r_content .u_data .div1 img {
+    float: left;
+    height: 100px;
+    margin: auto;
+    width: 100px;
+}
+.uc_content .r_content .u_data .UserName {
+    color: #666666;
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 600px;
+}
+.uc_content .r_content .u_data .UserNameClass {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+    width: 500px;
+}
+.uc_content .r_content .u_data .UserNameClass img {
+    float: left;
+    height: 26px;
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 26px;
+}
+
+.uc_content .order_data {
+    margin-top: 0;
+}
+.order_data {
+    margin-top: 0;
+}
+.r_content .order_tab {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 1px solid #e3e3e3;
+    height: 38px;
+    width: 748px;
+}
+.r_content .order_tab .act_tab {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #007fcc #e3e3e3 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 2px 1px medium;
+    color: #007fcc;
+    top: -1px;
+}
+.r_content .order_tab a {
+    color: #666;
+    display: block;
+    float: left;
+    font: 100 16px/36px "microsoft Yahei";
+    height: 38px;
+    left: -1px;
+    position: relative;
+    text-align: center;
+    width: 128px;
+}
+.r_content .order_tbg {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #e3e3e3 #e3e3e3;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    position: relative;
+    top: -1px;
+    width: 748px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.r_content .order_tbg tr {
+    border-bottom: 1px solid #e3e3e3;
+    color: #999;
+    height: 32px;
+    line-height: 32px;
+}
+.r_content .order_tbg .pl40 {
+    padding-left: 40px;
+}
+.page_count {
+    height: 30px;
+    margin: 9px 0 0;
+    overflow: hidden;
+    width: 750px;
+}
+.page_count span {
+    display: block;
+    float: left;
+    line-height: 30px;
+    margin-right: 5px;
+}
+.red_arial_b {
+    color: #007fcc;
+    font-family: "Arial Unicode MS";
+    font-weight: 900;
+}
+.page_count a {
+    display: block;
+    float: right;
+    height: 24px;
+    margin-left: 3px;
+    width: 63px;
+}
+.page_count a.np {
+    background: rgba(0, 0, 0, 0) url("../img/page.gif") no-repeat scroll -198px 0;
+}
+.page_count a.pp {
+    background: rgba(0, 0, 0, 0) url("../img/page.gif") no-repeat scroll -132px 0;
+}
+

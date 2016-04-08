@@ -1,0 +1,414 @@
+#bodySection{
+	font-size: 14px;
+    min-height: 0;
+}
+.top_line{
+	border-top: 2px solid #007fcc;
+}
+#content {
+    margin: auto;
+    width: 980px;
+}
+.top-line {
+    background: none repeat scroll 0 0 #efefef;
+    border-bottom: 2px solid #4c8de5;
+    height: 37px;
+    line-height: 37px;
+    margin: 20px 0 0;
+    position: relative;
+    vertical-align: middle;
+    z-index: 10;
+}
+.top-line .top-line-title {
+    background-color: #4c8de5;
+    float: left;
+    height: 37px;
+    line-height: 37px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.top-line-title {
+    background: url("<%=ctx%>/img/rate_icon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    width: 150px;
+}
+h3 {
+    font-size: 14px;
+}
+.top-line .top-line-title .page-title {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.top-line .header-nav {
+    bottom: 0;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+}
+.top-line .header-nav .header-nav-item {
+    float: left;
+    height: 30px;
+    margin-left: 20px;
+}
+.top-line .rate-tips {
+    display: block;
+    height: 30px;
+    line-height: 26px;
+    position: relative;
+    width: 80px;
+}
+.top-line .rate-tips .rate-tips-btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #efefef;
+    border-color: transparent transparent -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 2px 2px 0;
+    color: #36c;
+    cursor: default;
+    display: block;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 76px;
+    z-index: 1001;
+}
+.top-line .rate-tips .arrow-down {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #5992cc transparent transparent;
+    border-image: none;
+    border-right: 4px dashed transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px;
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    vertical-align: middle;
+    width: 0;
+}
+.top-line .rate-tips-dropdown {
+    background: none repeat scroll 0 0 #fff;
+    border: 2px solid #ccc;
+    display: none;
+    height: 230px;
+    line-height: 1.5;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 28px;
+    width: 520px;
+    z-index: 1000;
+}
+.top-line .rate-tips-dropdown .rate-tips-dropdown-shim {
+    height: 230px;
+    width: 520px;
+}
+.top-line .rate-tips-dropdown .rate-tips-content {
+    margin-top: -230px;
+    padding: 20px;
+}
+.top-line .rate-tips-dropdown p {
+    margin-top: 10px;
+}
+.top-line .rate-tips-dropdown strong {
+    font-weight: 700;
+}
+.line {
+    margin-bottom: 10px;
+}
+.itemlist {
+    border: 1px solid #e0e9ef;
+}
+fieldset, img {
+    border: medium none;
+}
+.rate-list {
+    clear: both;
+    margin-top: 20px;
+}
+.o2oshop-rate-box::after, .rate-box::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+.o2oshop-rate-box, .rate-box {
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 20px;
+}
+.item-rate-info {
+    float: left;
+    padding: 20px 0 0 100px;
+    position: relative;
+    width: 160px;
+}
+.item-detail {
+    color: #999;
+    width: 130px;
+}
+.item-d-img {
+    background: none repeat scroll 0 0 #f2f2f2;
+    border: 1px solid #e6e6e6;
+    display: block;
+    height: 130px;
+    line-height: 127px;
+    overflow: hidden;
+    text-align: center;
+    width: 128px;
+}
+.item-d-img img {
+    vertical-align: middle;
+}
+.item-title {
+    height: 88px;
+    line-height: 18px;
+    margin-top: 5px;
+    overflow: hidden;
+    width: 123px;
+    word-wrap: break-word;
+}
+.o2oshop-rate-box .item-rate-main, .rate-box .item-rate-main {
+    float: left;
+    margin-left: 20px;
+    padding: 10px 0;
+    width: 570px;
+}
+.dsr-box {
+    padding: 40px 0 40px 264px;
+    position: relative;
+}
+.dsr-box .dsr-title-o2oshop, .dsr-box .dsr-title {
+    background: none repeat scroll 0 0 #f3f3f3;
+    color: #999;
+    left: 98px;
+    position: absolute;
+    text-align: center;
+    width: 130px;
+}
+.remark-form h2 {
+    background: none repeat scroll 0 0 #f3f8fe;
+    border: 0 none;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    width: 100%;
+}
+.stars {
+    padding: 20px;
+}
+.stars li {
+    margin: 5px 0;
+}
+.stars li label {
+    line-height: 23px;
+}
+.ks-simplestar {
+    border: 1px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ks-simplestar img {
+    margin-right: 5px;
+}
+.ks-ss-tips {
+    margin-left: 10px;
+}
+.itemlist input {
+    vertical-align: text-bottom;
+}
+.rate-msg-box {
+    background: none repeat scroll 0 0 #eef8fd;
+    border: 1px solid #daf1fc;
+    overflow: hidden;
+    padding: 3px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+.textinput {
+    z-index: 0;
+}
+.rate-msg-box .ph-label {
+    display: block;
+    line-height: 1.5;
+    padding: 5px 0 0 9px;
+    width: 535px;
+}
+.ph-label {
+    color: #aaa;
+    line-height: 1.2;
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    transition: all 0.2s ease-out 0s;
+}
+.rate-msg-box .rate-msg {
+    border: 1px solid #ccc;
+    color: #b0b0b0;
+    display: block;
+    height: 110px;
+    outline: 0 none;
+    padding: 8px;
+    width: 544px;
+}
+.text-counter {
+    color: #bbb;
+    display: none;
+    float: right;
+    margin: -20px 20px 0 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+.photo-uploader::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+.rate-msg-box .photo-uploader {
+    float: left;
+    vertical-align: middle;
+}
+.photo-uploader {
+    padding: 3px 0 0;
+    width: 390px;
+}
+.photo-uploader .upload-btn {
+    background: none repeat scroll 0 0 #93b4c6;
+    border: 1px solid #7ca0b8;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 4px;
+    position: relative;
+    text-align: center;
+    transition: background 0.3s ease 0s;
+    width: 58px;
+}
+.icon-img-upload {
+    background-position: 0 -78px;
+    float: left;
+    height: 15px;
+    margin: 3px 0 0 2px;
+    width: 15px;
+}
+.icon-img-upload {
+    background: url("<%=ctx%>/img/rate_icon2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.photo-uploader .upload-btn .file-input-wrapper {
+    display: block;
+    height: 20px;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 58px;
+    z-index: 300;
+}
+.photo-uploader .btn-firefox .file-input {
+    font-size: 40px;
+    height: auto;
+    left: auto;
+    right: -4px;
+    top: -10px;
+    width: auto;
+}
+.photo-uploader .upload-btn .file-input {
+    background: none repeat scroll 0 0 transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 400px;
+    height: 400px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -200px;
+    width: 70px;
+}
+.photo-uploader .upload-queue {
+    color: #404040;
+    float: left;
+    font-size: 12px;
+    margin-left: 4px;
+    padding: 0;
+}
+.photo-uploader .upload-msg {
+    color: #aaa;
+    float: left;
+    margin: 8px 0 0 4px;
+}
+.submitbox {
+    margin-top: 10px;
+    padding: 20px 0 30px 290px;
+}
+.submit-btn {
+    background: url("../img/rate_icon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    height: 38px;
+    margin-left: 120px;
+    text-indent: -9999px;
+    width: 170px;
+}
+.photo-uploader .upload-queue li {
+    color: #404040;
+    float: left;
+    height: 42px;
+    line-height: 18px;
+    list-style: outside none none;
+    margin-right: 4px;
+    position: relative;
+    width: 42px;
+}
+.photo-uploader .upload-queue .queue-thumbnail {
+    background: none repeat scroll 0 0 #eee;
+    display: table-cell;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.photo-uploader .upload-queue .status, .photo-uploader .upload-queue .queue-thumbnail {
+    border: 1px solid #999;
+    height: 40px;
+    left: 0;
+    text-align: center;
+    top: 0;
+    width: 40px;
+}
+.photo-uploader .upload-queue .queue-thumbnail img {
+    vertical-align: middle;
+}
+
+#set_title{
+    border: 1px solid #999;
+    height: 25px;
+    margin: 10px 0;
+    width: 200px;
+}

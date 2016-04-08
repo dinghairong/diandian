@@ -1,0 +1,104 @@
+.banner{  width: 1000px;  height: 140px;  margin: 0px auto;  clear: both;  }
+.logo{  width:200px;  height: 140px;  float: left;  text-align: center;  color: #4c8de5;  font-size: 28px;  font-weight: bolder;  }
+.logo span{  font-size: 16px;  color: #ff8500;  font-family: 方正静蕾简体;  margin-top: 10px;  display: block;  }
+.logo_cont{  width: 100%;  height: 80px;  margin-top: 30px;  }
+
+.yebz_jd{width: 755px;height: 48px;float: right;background: url(../images/yebz_ddlc_back.png) no-repeat center;margin-top: 48px;}
+.yebz_jd_cont{width: 33.33%;height: 100%;float: left;text-align: center;}
+.yebz_jd_contspan1{width: 124px;height: 24px;margin: 12px auto;font-size: 15px;color: #ff8500;line-height: 24px;}
+.yebz_jd_contspan1 p{float:left;margin-right:10px;display: block;width: 24px;height: 24px;float: left;background: url(../images/lc_quan1.png) no-repeat center;color: #fff;font-size: 13px;text-align: center;line-height: 24px;}
+.yebz_jd_contspan2{width: 124px;height: 24px;margin: 12px auto;font-size: 15px;color: #cbcbcb;line-height: 24px;}
+.yebz_jd_contspan2 p{float:left;margin-right:10px;display: block;width: 24px;height: 24px;float: left;background: url(../images/lc_quan2.png) no-repeat center;color: #fff;font-size: 13px;text-align: center;line-height: 24px;}
+
+.yy_Number{width: 116px;height: 32px;border: 1px solid #e6e6e6;float: left;color: #444;font-size: 25px;margin-left: 360px;}
+.yy_Number span{display: block;width: 32px!important;height: 100%;background-color: #f1f1f1;text-align: center;line-height: 30px;float: left;cursor: pointer}
+.yy_Number input{width: 50px;height: 30px;float: left;background-color: transparent;border: 0;text-align: center;line-height: 30px;}
+
+.yy_jiesuan{width: 100%;height: 58px;background-color: #f2f2f2;line-height: 56px;font-size: 16px;color: #454545;}
+.yy_jiesuan span{float: right;}
+.yy_jiesuan a{display: block;width: 196px;height: 100%;float: right;background-color: #ff551a;text-align: center;line-height: 58px;font-size: 20px;color: #fff;cursor: pointer;margin-left: 10px;}
+.yy_jiesuan .yy_jiesuana{display: inline!important;font-size: 12px;color: #0076be;float: left!important;background-color: transparent!important;width: auto!important;margin-right: 40px;}
+
+.hdXinxi{width: 1000px;overflow: hidden;margin: 0 auto;border: 1px solid #ddd;}
+.hdXinxi_one{width: 100%;overflow: hidden;padding: 32px 52px 18px 52px;border-bottom: 1px dashed #ddd;}
+.hdXinxi_one_cont{width: 50%;float: left;overflow: hidden;}
+.hdXinxi h1{font-size: 15px;color: #2c2c2c;margin-bottom: 10px;}
+.hdXinxi_one_cont div{width: 100%;overflow: hidden;line-height: 38px;margin-bottom: 15px;}
+.hdXinxi_one_cont div span{font-size: 15px;color: #656565;float: left;margin: 0 20px;}
+.hdXinxi_one_cont div img{float: left;margin-top: 15px;}
+.hdXinxi_one_cont div input{float: left;width: 240px;height: 38px;padding-left: 10px;line-height: 38px;border: 1px solid #ddd;}
+.hdXinxi_one_cont a{width: 240px;height: 38px;padding-left: 10px;line-height: 38px;border: 1px solid #ddd;font-size: 13px;color: #454545;display: block;margin-bottom: 15px;position: relative;}
+.hdXinxi_one_cont a:after{content: "";width: 0;height: 0;position: absolute;top: 14px;right: 18px;border-left: 8px solid #4f4f4f;border-top: 5px solid transparent;border-bottom: 5px solid transparent;}
+.hdXinxi_two{width: 100%;overflow: hidden;padding: 30px 0 30px 52px;border-bottom: 1px dashed #ddd;}
+.hdXinxi_two_left{width: 448px;overflow: hidden;float: left;}
+.hdXinxi_two_left select{width: 182px;height: 38px;border: 1px solid #ddd;float: left;margin-right: 18px;font-size: 13px;color: #454545;padding-left: 10px;margin-bottom: 20px;line-height: 36px;}
+.hdXinxi_twospan{float: left;font-size: 12px;color: #454545;margin-left: 10px;line-height: 38px;}
+.hdXinxi_two_left ul{width: 100%;height: 454px;clear: both;border: 1px solid #ddd;overflow-y: auto;}
+.hdXinxi_two_left ul li{border-bottom: 1px dashed #ddd;padding: 10px 20px;width: 100%;overflow: hidden;font-size: 12px;color: #494949;position: relative;}
+.hdXinxi_two_left ul li span{color: #0b0b0b;}
+.hdXinxi_two_left ul li p{margin-bottom: 8px;}
+.hdXinxi_two_left ul li p span{color: #494949;float: right;margin-right: 143px;}
+.hdXinxi_two_left ul li a{display: block;width: 58px;height: 27px;color: #fff;font-size: 12px;text-align: center;line-height: 27px;position: absolute;top: 17px;right: 30px;background-color: #ff551a;}
+.hdXinxi_two_right{width: 490px;height: 550px;border: 1px solid #ddd;border-right: 0!important;float: right;}
+.hdXinxi_three{width: 100%;overflow: hidden;padding: 30px 52px;}
+.hdXinxi_three_title{width: 100%;overflow: hidden;border: 1px solid #ddd;background-color: #ededed;}
+.hdXinxi_three_title li{width: 20%;overflow: hidden;padding: 13px 0;float: left;border-right: 1px solid #ddd;font-size: 14px;color: #656565;text-align: center;}
+.hdXinxi_three_title li .no{border-right: 0!important;}
+.hdXinxi_three_cont{width: 100%;overflow: hidden;border: 1px solid #ddd;border-top: 0!important;}
+.hdXinxi_three_cont li{width: 100%;height: 65px;border-bottom: 1px dashed #ddd;line-height: 64px;}
+.hdXinxi_three_cont li span{display: block;width: 20%;height: 100%;float: left;text-align: center;font-size: 13px;color: #444;}
+.hdXinxi_three_cont li .hdXinxi_cheng{font-size: 16px;color: #ff551a;}
+.hdXinxi_three_cont li span .yy_Number{margin: 16px 51px!important;}
+
+.select_after{
+	display: block;
+}
+.item_sel {
+    border-bottom: medium none;
+    display: none;
+}
+.comm_item {
+    display: inline-block;
+    height: 52px;
+    margin-right: 14px;
+    overflow: hidden;
+    /*padding-left: 9px;*/
+    text-align: left;
+    vertical-align: middle;
+    width: 305px;
+}
+.comm_item .itema {
+    color: #666;
+    line-height: 20px;
+    margin: 0;
+    padding-top: 7px;
+}
+.comm_item .itemb {
+    color: #333;
+    display: block;
+    line-height: 20px;
+    margin:8px 0 0;
+}
+.comm_item .item_fen {
+    color: #f3815a;
+    display: inline-block;
+    float: right;
+    text-align: left;
+    width: 130px;
+}
+.comm_item .item_fen span {
+    color: #666;
+}
+.item_xiugai {
+    background-color: #fff;
+    border: 1px solid #f3815a;
+    color: #f3815a;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    text-align: center;
+    vertical-align: middle;
+    width: 55px;
+}

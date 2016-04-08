@@ -1,0 +1,240 @@
+.dotted_line{
+    border-top: 1px dotted #b7b7b7;
+    margin-top: 20px;
+}
+.lafttitle{
+	text-align: center;
+	margin-top: 20px;
+}
+.lafttitle_name{
+	color: #636363;
+	font-size: 18px;
+	font-weight: bold;
+}
+.lafttitle_line1{
+	border-top: 2px solid  #636363;
+	margin-top: 10px;
+}
+.lafttitle_select{
+	
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.lafttitle_select span{
+	background: #007fcc none repeat scroll 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    line-height: 10px;
+    margin-right: 10px;
+    position: relative;
+    text-indent: -9999px;
+    width: 10px;
+}
+.lafttitle_select a{
+	color: #007fcc;
+}
+.lafttitle_line2{
+	border-top: 1px dotted #b7b7b7;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.lafttitle_unselect{
+	color: #444;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.lafttitle_unselect span{
+	background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    line-height: 10px;
+    margin-right: 10px;
+    position: relative;
+    text-indent: -9999px;
+    width: 10px;
+}
+.productsHeader {
+    background-color: #f7f7f7;
+    /*border: 1px solid #ddd;*/
+    box-sizing: unset;
+    color: #7c7c7c;
+    font-family: "宋体","微软雅黑",Arial;
+    font-size: 14px;
+    font-weight: bold;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 250px;
+    margin-top: 53px;
+    padding: 5px 8px;
+    width: 750px;
+}
+.productsHeader .orderBy {
+    float: left;
+    width: 65%;
+}
+.productsHeader .listResult {
+    border-left: 2px solid #e7e3e7;
+    float: right;
+    font-size: 0;
+    line-height: 40px;
+    margin-top: 10px;
+    text-align: right;
+    width: 18%;
+}
+
+.productsHeader .orderBy a.orderType {
+    background-color: #fff;
+    border: 1px solid #cecbce;
+    margin-right: 15px;
+    padding: 0 10px;
+}
+.productsHeader .orderBy a {
+    color: #828282;
+    display: inline-block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 80px;
+}
+.productsHeader .orderBy a.selected {
+    background-color: #007fcc;
+    border-color: #007fcc;
+    color: #fff;
+    cursor: default;
+}
+.productsHeader a {
+    text-decoration: none;
+}
+.productsHeader a:hover{
+    color: #007fcc;
+}
+
+.productsHeader .orderBy a.direction span {
+    border: 4px solid #fff;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    right: 7px;
+}
+.productsHeader .orderBy a.direction span.asc {
+    border-bottom-color: #999;
+    top: 4px;
+}
+.productsHeader .orderBy a.direction span.desc {
+    border-top-color: #999;
+    top: 14px;
+}
+
+.productsHeader .listResult span {
+    font-size: 12px;
+    height: 26px;
+    color: #828282;
+}
+.productsHeader .listResult span.totalPage {
+    border-left: 1px solid #fff;
+    padding: 0 10px 0 16px;
+}
+.productsHeader .listResult span.totalPage a.disabled {
+    color: #999;
+    cursor: default;
+}
+.productsHeader .listResult span.totalPage a {
+    color: #007fcc;
+    font-weight: bold;
+    padding: 0 7px;
+}
+.productsHeader .listResult span.totalPage span .currentPage {
+    color: #007fcc;
+}
+
+
+
+.Products_list{
+	
+}
+.Products_list table{
+	width: 90%;
+	color: #959595;
+	font-size: 14px;
+    margin: 10px;
+}
+.Products_list tr{
+    width: 33%;
+}
+.Products_list table tr{
+	line-height: 30px;
+}
+.Products_list .price1{
+	color: #ff551a;
+    font-size: 18px;
+}
+.Products_list .price2{
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+/*.Products_list a{
+	background-color: #ff551a;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
+}*/
+.addcartbtn{
+    background-color: #ff551a;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
+}
+.Products_list .addtocart{
+    float: right;
+   /* margin-right: 10px;*/
+}
+.Products_list .td1{
+    border-bottom: 2px solid #e1e1e1;
+    border-left: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    width:249px;
+}
+.Products_list .td2{
+    border-bottom: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    width:249px;
+}
+.Products_list .td3{
+    border-bottom: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    width:249px;
+}
+
+.kxby{width: 1000px;overflow: hidden;background-color: #fff;box-shadow: -1px 1px 10px #d9d9d9;margin: 20px auto;}
+.kxby_top{width: 100%;overflow: hidden;padding: 23px 61px;border-bottom: 1px solid #d9d9d9;font-size: 20px;color: #323232;}
+.kxby_top img{float: right;cursor: pointer;}
+.kxby_top img:hover{opacity: 0.7;filter: alpha(opacity=70);}
+.kxby_top span{float: left;}
+.kxby_xiangzuo{margin-right: 10px;}
+.kxby ul{width: 100%;overflow: hidden;height: 325px;position: relative;}
+.kxby ul li{width: 220px;overflow: hidden;float: left;}
+.kxby ul li a p{font-size: 13px;color: #444;margin-top: 10px;}
+.kxby ul li a{display: block;width: 100%;height: 100%;}
+.kxby ul li a span{font-size: 12px;color: #959595;}
+.kxby ul li:hover img{transform: scale(1.5);-webkit-transform: scale(1.5);-o-transform: scale(1.5);-moz-transform: scale(1.5);transition: all 1s;-webkit-transition: all 1s;-o-transition: all 1s;-moz-transition: all 1s;}
+.kxba_lunboimg{width: 210px;height: 213px;overflow: hidden;}
+.kxbyulAll{width: 920px;height: 261px;margin: 32px 60px 32px 60px;position: relative;}
+.kxbyulAll .flex-direction-nav .flex-prev { right: 43px;position: absolute;top: 0;background:url(../images/kxby_xiangzuo.png) center;width: 33px;height: 33px;}
+.kxbyulAll .flex-direction-nav .flex-next { right: 0;position: absolute;top: 0;background:url(../images/kxby_xiangyou.png);width: 33px;height: 33px;}
+.kxbyulAll .flex-direction-nav{position: absolute!important;top: -89px;right: 41px;width: 76px!important;height: 33px!important;z-index: 1001;overflow: visible!important;}
+.kxbyulAll .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.kxbyulAll .flex-direction-nav .flex-disabled { opacity: 1!important; filter:alpha(opacity=1); cursor: default; }
+.kxbyulAll .flex-direction-nav a{color: transparent;width: 33px;height: 33px;overflow: hidden;}

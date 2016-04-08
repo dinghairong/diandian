@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+
+/******************************************agreement start***************************************************/
+div#protocol1 {
+    width: 768px;
+    margin: 64px auto;
+    position: relative;
+}
+
+div#protocol1 h1 {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #313131;
+    font-size: 1.2em;
+}
+
+div#protocol1 input {
+    border: none;
+    border-bottom: 1px #BFBFBF solid;
+    width: 240px;
+    /*font-size: 0.8em;*/
+    color: #6C6C6C;
+    padding: 0 3px;
+}
+
+div#protocol1 p {
+    line-height: 24px;
+    font-size: 0.8em;
+    color: #6C6C6C;
+    /*word-wrap:break-word; word-break:normal; */
+    /*border: 1px solid;*/
+}
+
+div#protocol1 p span {
+    display: inline-block;
+    width: 280px;
+}
+
+div#protocol1 p input.province {
+    padding: 0 3px;
+    width: 128px;
+}
+
+div#protocol1 p input.city {
+    padding: 0 3px;
+    width: 64px;
+}
+
+
+div#protocol1 p#addr input {
+    width: 480px;
+}
+
+div#protocol1 p#date input {
+    width: 32px;
+}
+
+div#protocol1 p#date input.year {
+    width: 64px;
+}
+
+div#protocol1 div#end * {
+    display: inline-block;
+    width: 320px;
+}
+
+div#protocol1 div#end p.right {
+    position: relative;
+    left: 180px;
+}
+
+div#protocol1 div#end p.empty {
+    height: 84px;
+    width: 100%;
+}
+
+div#protocol1 div#btn_agreement {
+    width: 332px;
+    margin: 32px auto;
+}
+
+div#protocol1 div#btn_agreement * {
+    display: inline-block;
+    width: 132px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #FE9A05;
+    color: #ffffff;
+}
+
+div#protocol1 div#btn_disagree {
+    margin-left: 57px;
+    background-color: #9D9D9D;
+}
+
+div#protocol1 p.yi {
+    color: red;
+}
+
+div#protocol1 p.yi>input[type="text"] {
+    border-color: red;
+}
+
+img#seal {
+    position: absolute;
+    left: -10px;
+    bottom: 55px;
+}
+
+/******************************************agreement end***************************************************/

@@ -1,0 +1,33 @@
+.banner{  width: 1000px;  height: 140px;  margin: 0px auto;  clear: both;  }
+.logo{  width:200px;  height: 140px;  float: left;  text-align: center;  color: #4c8de5;  font-size: 28px;  font-weight: bolder;  }
+.logo span{  font-size: 16px;  color: #ff8500;  font-family: 方正静蕾简体;  margin-top: 10px;  display: block;  }
+.logo_cont{  width: 100%;  height: 80px;  margin-top: 30px;  }
+
+.yebz_jd{width: 755px;height: 48px;float: right;background: url(../images/yebz_ddlc_back.png) no-repeat center;margin-top: 48px;}
+.yebz_jd_cont{width: 33.33%;height: 100%;float: left;text-align: center;}
+.yebz_jd_contspan1{width: 124px;height: 24px;margin: 12px auto;font-size: 15px;color: #ff8500;line-height: 24px;}
+.yebz_jd_contspan1 p{display: block;width: 24px;height: 24px;float: left;background: url(../images/lc_quan1.png) no-repeat center;color: #fff;font-size: 13px;text-align: center;line-height: 24px;}
+.yebz_jd_contspan2{width: 124px;height: 24px;margin: 12px auto;font-size: 15px;color: #cbcbcb;line-height: 24px;}
+.yebz_jd_contspan2 p{display: block;width: 24px;height: 24px;float: left;background: url(../images/lc_quan2.png) no-repeat center;color: #fff;font-size: 13px;text-align: center;line-height: 24px;}
+
+
+.tjcg_cont{width: 1000px;overflow: hidden;margin: 0 auto;position: relative;}
+.lv_back{background-color: #f5fdf5;}
+.tjcg_cont_p{display: block;width: 600px;overflow: hidden;margin: 0 auto;text-align: left;font-size: 16px;color: #72a114;}
+.tjcg_cont_p span{font-size: 12px;color: #000;}
+.tjcg_cont_p span a{color: #007fcc;}
+.tjcg_contimg{position: absolute;top: 40px;left: 150px;}
+.nbj{padding: 35px 0;}
+.lv_back_fen{background-color: #faeee8;}
+.nbk_hui{border: 1px solid #e6e6e6;}
+.nbk_fen{border: 1px solid #f8e0d7;}
+.nbj_zf{padding: 15px 0 15px 80px;}
+.tjcg_fen_p{font-size: 12px;color: #222;}
+.zhifu{width: 680px;overflow: hidden;background-color: #fff;border: 2px solid #ff5b22;float: left;margin-top: 10px;}
+.zhifu li{width: 100%;overflow: hidden;padding: 10px 20px;}
+.zhifu li img{float: left;}
+.zhifulip{display: block;width: 102px;height: 20px;text-align: center;line-height: 20px;font-size: 12px;color: #fff;background-color: #ff551a;float: left;margin: 2.5px 8px;}
+.zhifulispan{float: right;line-height: 25px;font-size: 12px;color: #222;}
+.tjcg_ljzf{display: block;width: 190px;height: 49px;float: left;background-color: #ff5b22;color: #fff;text-align: center;line-height: 49px;margin: 10px 0 0 10px;}
+.lv_back{background-color: #f5fdf5;}
+.lv{color: #72a114;}

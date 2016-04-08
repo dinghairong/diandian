@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+
+/******************************************agreement start***************************************************/
+div#second {
+    width: 844px;
+    margin: 64px auto;
+    display: none;
+/*border: 1px solid;*/
+}
+
+div#second h1 {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #313131;
+    font-size: 1.2em;
+}
+
+div#second input {
+    border: none;
+    border-bottom: 1px #BFBFBF solid;
+    width: 240px;
+    /*font-size: 0.8em;*/
+    color: #6C6C6C;
+}
+
+div#second p {
+    line-height: 24px;
+    font-size: 0.8em;
+    color: #6C6C6C;
+    /*word-wrap:break-word; word-break:normal; */
+    /*border: 1px solid;*/
+}
+
+p#addr input {
+    width: 480px;
+}
+
+p#date input {
+    width: 32px;
+    text-align: center;
+}
+
+p#date input.year {
+    width: 64px;
+}
+
+div#second input#agreement_no {
+    width: 280px;
+}
+
+div#end {
+    position: relative;
+}
+
+div#end * {
+    display: inline-block;
+    width: 320px;
+}
+
+div#end p.right {
+    position: relative;
+    left: 180px;
+}
+
+div#end p.empty {
+    height: 84px;
+    width: 100%;
+}
+
+div#end img {
+    width: 164px;
+    position: absolute;
+    left: 32px;
+    bottom: 100px; 
+}
+
+div#btn_agreement {
+    width: 332px;
+    margin: 32px auto;
+    position: relative;
+/*border: 1px solid;*/
+}
+
+div#btn_agreement div {
+    display: inline-block;
+    width: 132px;
+    height: 38px;
+    position: absolute;
+    line-height: 38px;
+    text-align: center;
+    background-color: #FE9A05;
+    color: #ffffff;
+}
+
+div#btn_agree {
+    left: 0;
+    bottom: 38px;
+}
+
+div#btn_agreement div#btn_disagree {
+    /*margin-left: 57px;*/
+    right: 0;
+    bottom: 38px;
+    background-color: #9D9D9D;
+}
+/******************************************agreement end***************************************************/

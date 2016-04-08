@@ -1,0 +1,138 @@
+#bodySection{
+    font-size: 14px;
+}
+.top_line{
+    border-top: 2px solid #007fcc;
+}
+
+.container_24 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+#bodySection select{
+    border: 1px solid #7f9db9;
+}
+#bodySection #CityPage {
+    border: 1px solid #e3e3e3;
+    font-size: 14px;
+    margin: 10px 10px 0;
+    padding-bottom: 22px;
+}
+#bodySection #CityPage .hotcity {
+    padding: 13px 20px 40px 23px;
+}
+#bodySection #CityPage .hotcity label {
+    color: #999;
+    display: block;
+    font-weight: bold;
+    line-height: 28px;
+    padding-left: 2px;
+}
+#bodySection #CityPage .hotcity li {
+    float: left;
+    line-height: 28px;
+    width: 80px;
+}
+#bodySection #CityPage .hotcity li span {
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "宋体";
+    padding: 4px 2px;
+}
+#bodySection #CityPage .cityselect {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+    box-sizing: unset;
+    height: 25px;
+    line-height: 25px;
+    padding: 17px 0 17px 25px;
+}
+#bodySection #CityPage .cityselect label {
+    color: #999;
+}
+#bodySection #CityPage .cityselect select {
+    font-family: "宋体";
+    font-size: 14px;
+    height: 25px;
+    margin: 0 5px;
+    width: 150px;
+}
+#bodySection #CityPage .cityselect button {
+    background-color: #007fcc;
+    border: medium none;
+    color: #fff;
+    height: 25px;
+    outline: medium none;
+    text-align: center;
+    width: 80px;
+}
+#bodySection #CityPage .pinyin {
+    height: 64px;
+}
+#bodySection #CityPage .pinyin span {
+    background-color: #007fcc;
+    color: #fff;
+    display: inline-block;
+    font-family: "宋体";
+    font-size: 16px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    margin: 20px 0 0 25px;
+    position: relative;
+    text-align: center;
+    width: 148px;
+}
+#bodySection #CityPage .pinyin span i {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #007fcc #fff #fff;
+    border-image: none;
+    border-right: 6px solid #fff;
+    border-style: solid;
+    border-width: 6px;
+    left: 21px;
+    line-height: 0;
+    position: absolute;
+    top: 32px;
+}
+#bodySection #CityPage .citys {
+    font-family: "宋体";
+}
+#bodySection #CityPage .citys .city {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding: 1px 0;
+    position: relative;
+}
+#bodySection #CityPage .citys .city label {
+    background-color: #f1f1f1;
+    border: 1px solid #dfdfdf;
+    color: #666;
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    height: 30px;
+    left: 35px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    width: 30px;
+}
+#bodySection #CityPage .citys .city div {
+    padding: 6px 20px 6px 72px;
+}
+#bodySection #CityPage .citys .city div span {
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    margin: 5px 10px;
+    padding: 0 2px;
+}

@@ -1,0 +1,944 @@
+.top_line{
+	border-top: 2px solid #007fcc;
+}
+.site-map {
+    font-size: 12px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+}
+#bodySection{
+    font-size: 14px;
+}
+.container_24 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+#bodySection input,select{
+    border: 1px solid #7f9db9;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16, .grid_17, .grid_18, .grid_19, .grid_20, .grid_21, .grid_22, .grid_23, .grid_24, .grid_25 {
+    display: inline;
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+    position: relative;
+}
+.container_24 .grid_5 {
+    width: 230px;
+}
+.container_24 .grid_7 {
+    width: 300px;
+}
+.container_24 .grid_17 {
+    width: 660px;
+}
+.container_24 .grid_24 {
+    width: 1000px;
+}
+
+
+#bodyform #submitbtns {
+    bottom: 0;
+    padding: 2px;
+    position: absolute;
+}
+#bodyform #submitbtns #ordershop {
+    background-color: #d12a3e;
+    color: white;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    height: 42px;
+    line-height: 42px;
+    margin: 6px 15px auto auto;
+    text-align: center;
+    width: 160px;
+}
+#bodyform #submitbtns #addresstophone {
+    background-color: #ffffff;
+    border: 2px solid #d12a3e;
+    color: #d12a3e;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+    margin: 6px 0 auto auto;
+    text-align: center;
+    width: 160px;
+}
+.grid_17 .imgPreList .smallimages img {
+    margin-right: 5px;
+}
+#bodyform #submitbtns #addmobilenum {
+    background-color: rgb(255, 242, 238);
+    color: rgb(152, 152, 152);
+    float: left;
+    height: 44px;
+    line-height: 42px;
+    margin: 6px 0 auto;
+    width: 320px;
+}
+.span-bar {
+    background: none repeat scroll 0 0 #f96;
+    float: left;
+    height: 11px;
+}
+.star-bar {
+    float: left;
+}
+.star {
+    display: inline-block;
+    font-size: 0;
+    height: 15px;
+    position: relative;
+    vertical-align: -3px;
+    width: 85px;
+}
+.star span {
+    background: url("../img/icon_v.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 15px;
+    margin-right: 2px;
+    width: 15px;
+}
+.star span.disabled {
+    background: url("../img/icon_v.png") no-repeat scroll 0 -30px rgba(0, 0, 0, 0);
+}
+.star span.percent_star {
+    left: 100px;
+    position: absolute;
+    top: 0;
+}
+.shopinfo .fonth1 {
+    border-bottom: 1px dotted #ccc;
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+    padding: 4px 0 7px;
+}
+.container_24 .grid_17 .shopinfo {
+    height: 293px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    position: relative;
+    width: 420px;
+}
+#bodyform table {
+    margin-top: 6px;
+}
+#bodyform table td {
+    padding-top: 6px;
+}
+table td .detailcontent {
+    color: rgb(51, 51, 51);
+}
+#bodyform table td span.titlename {
+    color: rgb(153, 153, 153);
+    float: right;
+}
+.spanrpjc {
+    color: rgb(51, 51, 51);
+    float: left;
+    font-size: 12px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+.spanshuxian {
+    color: rgb(221, 221, 221);
+    float: left;
+    font-size: 24px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.spanfbwdpl {
+    color: rgb(181, 181, 181);
+    float: left;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.divkhpj {
+    color: rgb(74, 74, 74);
+    float: left;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+#comments {
+    clear: both;
+}
+.commentline {
+    margin: 10px 5px 15px auto;
+}
+.laohulevel {
+    height: 35px;
+    margin: 0 auto 4px;
+    width: 35px;
+}
+.laohuuserinfo {
+    float: left;
+    text-align: center;
+    width: 70px;
+}
+.laohuusername {
+    text-align: center;
+}
+.laohuusergrade {
+    text-align: center;
+}
+.commentsatisul {
+    float: right;
+}
+.commentsatisRate {
+    float: left;
+}
+.updatetimespan {
+    color: rgb(181, 181, 181);
+    display: inline-block;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.commenttitle {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: rgb(247, 247, 247);
+    border-color: #d12a3e rgb(217, 217, 217) rgb(217, 217, 217);
+    border-image: none;
+    border-right: 1px solid rgb(217, 217, 217);
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    height: 34px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-top: 2px;
+    position: relative;
+    top: 10px;
+}
+#commentRates {
+    float: left;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+#commentRate {
+    color: rgb(255, 103, 122);
+    float: left;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: -2px;
+}
+#publishMyView {
+    background-color: #f42b11;
+    border: 0 none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 6px;
+    text-align: center;
+    width: 110px;
+}
+.commentdetail {
+    border: 1px solid #e3e3e3;
+    float: right;
+    margin-left: 10px;
+    top: -98px;
+    width: 753px;
+}
+.orderdetail {
+    border-bottom: 1px solid rgb(243, 241, 239);
+    color: rgb(82, 82, 82);
+    float: left;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    width: 730px;
+}
+div#detailcomments {
+    position: relative;
+    top: 15px;
+}
+div.commentdetail ul.commentlines {
+    float: left;
+    position: relative;
+    top: 20px;
+    width: 840px;
+}
+div.commentdetail ul li.commentline {
+    margin-top: 10px;
+    position: relative;
+}
+div.commentdetail span.orderdetailfather {
+    float: left;
+    padding: 10px 10px 10px 5px;
+    width: 755px;
+}
+div.commentdetail span.commentcontent {
+    clear: both;
+    color: rgb(42, 42, 42);
+    float: left;
+    font-size: 13px;
+    overflow: inherit;
+    padding: 2px 0 10px 10px;
+    width: 730px;
+}
+div.commentdetail .comment_imgs .samll_imgs span img {
+    height: 40px;
+    margin-right: 8px;
+    width: 40px;
+}
+div.commentdetail .comment_imgs span.big_img {
+    border: 1px solid #cccccc;
+    display: none;
+    height: auto;
+    margin-top: 10px;
+    padding: 2px;
+    width: auto;
+}
+div.commentdetail .comment_imgs span.big_img img {
+    max-height: 500px;
+    max-width: 500px;
+}
+div.commentdetail .comment_imgs span.commentsatis {
+    float: right;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+div.commentdetail .comment_imgs {
+    margin: 15px 0 20px 20px;
+}
+div.commentdetail .comment_imgs .samll_imgs span {
+    border: 2px solid #f2f2f2;
+    cursor: zoom-in;
+    display: inline-block;
+    height: 40px;
+    padding: 2px;
+    width: 40px;
+}
+div.commentdetail .comment_imgs .samll_imgs span.selected {
+    border-color: #f42b11;
+    cursor: zoom-out;
+}
+div.commentdetail .comment_imgs .samll_imgs span:hover {
+    border-color: #f42b11;
+}
+div.commentdetail .Official_Reply {
+    background-color: #f8f8f8;
+    font: 12px "瀹�浣�";
+    margin: 20px;
+    overflow: hidden;
+    padding: 20px;
+    width: 91%;
+}
+div.commentdetail .Official_Reply span {
+    color: #d12a3e;
+    font-weight: bold;
+}
+.commentnum {
+    float: left;
+    margin-right: 10px;
+}
+#mymap {
+    height: 292px;
+    width: 327px;
+}
+#sendtoMobile {
+    background-color: rgb(240, 130, 91);
+    color: rgb(71, 71, 71);
+    display: inline-block;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    width: 100px;
+}
+#mobilenum {
+    display: inline-block;
+    font-size: 12px;
+    height: 22px;
+    width: 100px;
+}
+container_24 grid_24 site_map a:link {
+    color: black;
+}
+container_24 grid_24 site_map a:hover {
+    color: black;
+}
+container_24 grid_24 site_map a:visited {
+    color: black;
+}
+container_24 grid_24 site_map a:active {
+    color: black;
+}
+.fonth1 .GoldenShop {
+    background: url("../img/hongxi_icon.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 33px;
+    margin-left: 20px;
+    position: absolute;
+    top: 3px;
+    width: 31px;
+}
+.fonth1 .shop-type {
+    background: url("../img/express.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 50px;
+    margin-left: 65px;
+    margin-top: -5.5px;
+    width: 41px;
+}
+.publishtime {
+    float: left;
+    margin-right: 10px;
+}
+.ordercartype {
+    color: #075b9a;
+    float: left;
+    margin-left: 85px;
+}
+.ordercartype a {
+    color: #075b9a;
+}
+.ordercartype a:hover {
+    color: #075b9a;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+#bodySection div.pager {
+    font-size: 0;
+    margin: 30px 0;
+    text-align: right;
+}
+#bodySection div.pager span {
+    border-left: 1px solid #ddd;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 28px;
+}
+#bodySection div.pager a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ddd -moz-use-text-color #ddd #ddd;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    color: #2c59b8;
+    display: inline-block;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    width: 28px;
+}
+#bodySection div.pager a.first-child {
+    width: 77px;
+}
+#bodySection div.pager a.last-child {
+    border-right: 1px solid #ddd;
+    width: 77px;
+}
+#bodySection div.pager a:hover, #bodySection div.pager a.current {
+    background-color: #f4f4f4;
+    color: #cc0202;
+}
+#bodySection div.pager a.current {
+    cursor: default;
+}
+#bodySection div.pager a.disabled, #bodySection div.pager a.disabled:hover {
+    background-color: #f4f4f4;
+    color: #999;
+    cursor: default;
+}
+.servicesItem {
+    background-color: rgb(244, 130, 91);
+    border-radius: 3px;
+    color: white;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+}
+.theshophasntcomment {
+    color: #999;
+    font-size: 18px;
+    margin: 100px 0;
+    text-align: center;
+}
+.comment_jiao {
+    background: url("../img/icon_v.png") repeat scroll 0 -1180px rgba(0, 0, 0, 0);
+    height: 11px;
+    margin-left: -7px;
+    margin-top: 28px;
+    width: 7px;
+}
+#bodySection .comment_action {
+    float: right;
+    margin: 0 20px 10px 0;
+}
+#bodySection .comment_action .comment_good_area {
+    background: url("../img/icon_v.png") no-repeat scroll 5px -1095px rgba(0, 0, 0, 0);
+    border: 1px solid #ddd;
+    color: #999;
+    cursor: pointer;
+    display: inline-block;
+    font: 12px/22px "瀹�浣�";
+    height: 20px;
+    margin-right: 5px;
+    min-width: 48px;
+    padding-left: 22px;
+}
+#bodySection .comment_action .comment_good_area:hover {
+    background-position: 5px -1255px;
+    border-color: #f42b11;
+    color: #f42b11;
+}
+#bodySection .comment_action .comment_reply_area {
+    background: url("../img/icon_v.png") no-repeat scroll 5px -1134px rgba(0, 0, 0, 0);
+    border: 1px solid #ddd;
+    color: #999;
+    cursor: pointer;
+    display: inline-block;
+    font: 12px/22px "瀹�浣�";
+    height: 20px;
+    margin-right: 5px;
+    min-width: 48px;
+    padding-left: 22px;
+}
+#bodySection .comment_action .comment_reply_area:hover {
+    background-position: 5px -1214px;
+    border-color: #f42b11;
+    color: #f42b11;
+}
+#bodySection .Rate_ress {
+    float: right;
+    margin-top: 8px;
+}
+#bodySection .title_men {
+    color: #333;
+    font-family: 瀹�浣�;
+}
+.sever_xm .mdItem {
+    cursor: pointer;
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+.sever_xm .mdItem:hover a, .sever_xm .mdItem:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#bodySection #bodyform .lun_img, #bodySection #bodyform .bao_server {
+    background: url("../img/icon-shop.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+    display: inline-block;
+    height: 20px;
+    line-height: 21px;
+    padding-left: 20px;
+    text-align: center;
+    width: 60px;
+}
+#bodySection #bodyform .lun_img {
+    background-position: -38px -147px;
+}
+#bodySection #bodyform .bao_server {
+    background-position: -38px -174px;
+}
+#bodySection #bodyform .lun_buy {
+    background-color: #f42b11;
+    color: #fff;
+    display: none;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 9px;
+    margin-top: -10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    width: 60px;
+}
+#bodySection #bodyform .lun_item {
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: top;
+    width: 300px;
+}
+#bodySection .fonth1 .shop_Sevice, #bodySection .fonth1 .shop_zhisong {
+    background: url("../img/icon-shop.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 20px;
+    left: -3px;
+    position: relative;
+    top: 5px;
+    width: 20px;
+}
+#bodySection .fonth1 .shop_Sevice {
+    background-position: -23px 0;
+}
+#bodySection .fonth1 .shop_zhisong {
+    background-position: 0 0;
+}
+#bodySection .fonth1 .shop_hover {
+    cursor: pointer;
+}
+#bodySection .commentdetail .comm_reply {
+    display: none;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#bodySection .comm_reply .comm_reply_txt {
+    border-top: 1px solid #e3e3e3;
+    color: #999;
+    font: 12px "瀹�浣�";
+    margin: 0 0 10px;
+    padding-top: 20px;
+}
+#bodySection .comm_reply .comm_reply_txt .telTxt {
+    color: #999;
+    font: 12px "瀹�浣�";
+}
+#bodySection .comm_reply .comm_reply_textarea {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    height: 105px;
+    width: 513px;
+}
+#bodySection .comm_reply .comm_reply_textarea textarea {
+    border-style: none;
+    height: 65px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 5px 0 0 5px;
+    width: 507px;
+}
+#bodySection .comm_reply .comm_reply_textarea form .altMsg {
+    color: #bc0000;
+    display: inline-block;
+}
+#bodySection .comm_reply .comm_reply_textarea input {
+    background-color: #f8f8f8;
+    border: 1px solid #f4825c;
+    color: #f4825c;
+    float: right;
+    height: 23px;
+    line-height: 23px;
+    margin: 1px 5px 0 0;
+    padding: 0;
+    width: 65px;
+}
+.sever_xm {
+    background-color: #fffaf9;
+    border: 1px solid #fde2d5;
+    clear: both;
+    height: auto;
+    padding: 0 10px;
+}
+.sever_xm table tr {
+    border-bottom: 1px solid #fde2d5;
+    cursor: pointer;
+}
+.sever_xm table th {
+    font-weight: normal;
+    text-align: center;
+}
+.sever_xm table td {
+    cursor: pointer;
+}
+.sever_xm table .tyre_bj {
+    background: url("../img/tyre_ico.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+    font-family: 瀹�浣�;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 15px;
+    padding-left: 25px;
+    width: 85px;
+}
+.sever_xm table .baoyang_bj {
+    background: url("../img/tyre_ico.png") no-repeat scroll 0 -35px rgba(0, 0, 0, 0);
+    color: #fff;
+    font-family: 瀹�浣�;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 15px;
+    padding-left: 25px;
+    width: 85px;
+}
+.sever_xm table .buy {
+    background: url("../img/server_icon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+    display: none;
+    font-family: 瀹�浣�;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 15px;
+    width: 100px;
+}
+.sever_xm table .tyre_buy {
+    background-position: 0 0;
+}
+.sever_xm table .baoyang_buy {
+    background-position: 0 -36px;
+}
+.sever_xm table .arrow-s {
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0 0;
+    display: inline-block;
+    margin-left: -5px;
+    transform: rotate(-45deg);
+}
+.sever_xm table tr:last-child {
+    border-bottom: 0 none;
+}
+.sever_xm table .lun_item label {
+    border-left: 1px dashed #fde2d5;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-family: 瀹�浣�;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 10px;
+    width: 213px;
+}
+.sever_xm table .lun_item .lun_duigou {
+    background: url("../img/server_icon.png") no-repeat scroll -113px -12px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: sub;
+    width: 15px;
+}
+.sever_xm table .lun_item .lun_duigou_hui {
+    background: url("../img/server_icon.png") no-repeat scroll -113px -35px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: sub;
+    width: 15px;
+}
+.sever_xm table .lun_item .not_have {
+    color: #ccc;
+}
+#bodyform table .shuline {
+    background-color: #999;
+    display: inline-block;
+    height: 12px;
+    margin: 0 8px 3px;
+    vertical-align: middle;
+    width: 1px;
+}
+#bodyform table .tb_pinglun span {
+    color: #d12a3e;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+#detailcomments .commentlines .commentline {
+    margin-right: 0;
+}
+#detailcomments .commentlines .commentline .commentdetail {
+    width: 747px;
+}
+
+
+.userinfobody {
+    background-color: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 0 0 10px rgba(28, 28, 28, 0.3);
+    color: #999;
+    font-size: 12px;
+    width: 380px;
+}
+.userinfobody .userinfoarea {
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    line-height: 35px;
+    margin: 5px auto auto;
+    width: 360px;
+}
+.userinfobody .closebtn {
+    background: rgba(0, 0, 0, 0) url("../img/icon_modal.png") repeat scroll 0 -220px;
+    cursor: pointer;
+    float: right;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 8px;
+    width: 16px;
+}
+.userinfobody .seperateline {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #d12a3e;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    margin: auto auto 10px;
+    text-align: center;
+    width: 96%;
+}
+.userinfobody .forgetformheight {
+    height: 162px;
+}
+.userinfobody .userinfoform {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    margin: auto;
+    width: 360px;
+}
+.userinfobody .userinfotable {
+    margin: 10px auto auto 60px;
+    width: 300px;
+}
+.userinfobody table.userinfotable tr td {
+    font-family: "宋体";
+    font-size: 12px;
+    height: 21px;
+}
+.userinfobody table.userinfotable input.username {
+    background: rgba(0, 0, 0, 0) url("../img/login-icon1.png") no-repeat scroll -2px -1px;
+    padding-left: 45px;
+}
+.userinfobody table.userinfotable input.input {
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    height: 30px;
+    margin-bottom: 8px;
+    /*padding-left: 10px;*/
+    width: 236px;
+}
+.userinfobody table.userinfotable a:link {
+    color: #005da7;
+}
+.userinfobody table.userinfotable a {
+    color: #005da7;
+    text-decoration: none;
+}
+.userinfobody .promotion {
+    background-color: #fff4f4;
+    border: 1px solid #e3e3e3;
+    color: rgb(209, 42, 62);
+    display: none;
+    margin-left: 1px;
+    margin-top: 13px;
+    padding-left: 5px;
+    position: absolute;
+    width: 241px;
+    z-index: 3;
+}
+.userinfobody .userinfosubmit {
+    background-color: #007fcc;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    text-align: center;
+    width: 250px;
+}
+.forget_psw_next {
+    background-color: #999;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 135px;
+}
+.userinfobody table.userinfotable input.password {
+    background: rgba(0, 0, 0, 0) url("../img/login-icon2.png") no-repeat scroll -2px -1px;
+    padding-left: 45px;
+}
+.userinfobody .pagefoot1 {
+    font-family: "宋体";
+    height: 30px;
+    line-height: 36px;
+    margin: 5px auto;
+    text-align: right;
+    width: 360px;
+}
+.userinfobody .pagefoot2 {
+    border: 1px solid #007fcc;
+    color: #007fcc;
+    cursor: pointer;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+    margin-top: 2px;
+    text-align: center;
+    width: 80px;
+}
+
+.userinfobody .loginerror {
+    background-color: #fff4f4;
+    border: 1px solid #e3e3e3;
+    display: none;
+    font-family: "宋体";
+    height: 25px;
+    line-height: 25px;
+    margin: 0 auto 10px;
+    padding: 7px 10px 8px 20px;
+    width: 330px;
+}
+.forget_psw_next{
+    background-color: #999;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 115px;
+}

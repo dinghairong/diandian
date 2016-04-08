@@ -1,0 +1,291 @@
+.top_line{
+    border-top: 1px solid #007fcc;
+}
+.login_div{
+	background: rgba(0, 0, 0, 0) url("../img/login_lg_div.png") repeat scroll 0 0;
+    display: inline;
+    float: right;
+    height: 300px;
+    /*margin-left: 1160px;*/
+    margin-right: 20px;
+    margin-top: 30px;
+    /*position: absolute;*/
+    width: 240px;
+}
+.login_back_img{
+    position: absolute;
+    z-index: -1;
+}
+.login-form-row {
+    height: 40px;
+    line-height: 40px;
+    
+    overflow: hidden;
+}
+.login-form-row .title {
+    color: #666;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 10px;
+    text-align: right;
+    width: 65px;
+}
+.login-form-row .input {
+    height: 35px;
+    overflow: hidden;
+    width: 150px;
+}
+.login-form-row .input input {
+    width: 150px;
+}
+.pub-input {
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #b9b9b9;
+    color: #2e3032;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 5px;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.login-prompt{
+	height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    
+}
+.login-prompt .title {
+    color: #666;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 10px;
+    text-align: right;
+    width: 65px;
+}
+.login-prompt span{
+	color: #c6c6c6;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.login-form-row.forget {
+    margin-top: 0;
+    text-align: right;
+    width: 250px;
+    font-size: 12px;
+}
+a.forget_psw, .login-register a {
+    color: #67a5d9;
+}
+.login-submit {
+    /*margin-top: 10px;*/
+    text-align: right;
+    width: 150px;
+}
+.login-submit a {
+    width: 150px;
+}
+.login-submit a:hover {
+    color: #d12a3e;
+}
+.pub-btn-middle-orange {
+    background-color: #007fcc;
+    /*border-bottom: 1px solid #d14100;*/
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "宋体",Hiragino Sans GB;
+    font-size: 14px;
+    font-weight: bolder;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 45px;
+    text-align: center;
+}
+.dotted_line{
+	border-top: 1px dotted #b7b7b7;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.help_title{
+	color: #818181;
+	font-size: 12px;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.help_login img{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.qyyh_login{font-size: 15px;color: #6c6c6c;float: right;margin: -30px 18px 10px 0;}
+.qyyh_login span{color: #2c84be;margin-left: -90px;}
+
+.qyyh_cont{width: 100%;height: 600px;position: relative;background: url(../images/qyyh_banner.png) no-repeat center;clear: both;}
+.login_kuang{width: 300px;overflow: hidden;position: absolute;top: 46px;right: 42px;background-color: #fff;z-index: 1001;box-shadow: 0 0 10px #333;padding: 30px 20px;}
+.login_kuang span{display: block;width: 60px;float: left;font-size: 14px;color: #818181;height: 41px;line-height: 41px;}
+.login_kuang input{width: 200px;height: 41px;float: left;border: 1px solid #d1d1d1;padding-left: 10px;line-height: 39px;}
+.login_kuang p{font-size: 11px;color: #b0b0b0;display: block;width: 100%;overflow: hidden;padding: 8px 0 18px 80px;clear: both;}
+.qyyh_lost{font-size: 11px;color: #007fcc;float: right;padding: 8px 0 20px 0;}
+.login_an{display: block;width: 186px;height: 48px;margin: 0 auto;background-color: #007fcc;font-size: 20px;text-align: center;line-height: 48px;color: #fff;clear: both;}
+.qyyh_company{width: 100%;height: 50px;line-height: 50px;font-size: 12px;color: #818181;border-top: 1px dashed #b7b7b7;margin-top: 27px;}
+.login_kuang img{float: left;margin-right: 20px;display: block;cursor: pointer;}
+
+
+
+.userinfobody {
+    background-color: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 0 0 10px rgba(28, 28, 28, 0.3);
+    color: #999;
+    font-size: 12px;
+    width: 380px;
+}
+.userinfobody .userinfoarea {
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 500;
+    height: 35px;
+    line-height: 35px;
+    margin: 5px auto auto;
+    width: 360px;
+}
+.userinfobody .closebtn {
+    background: rgba(0, 0, 0, 0) url("../img/icon_modal.png") repeat scroll 0 -220px;
+    cursor: pointer;
+    float: right;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 8px;
+    width: 16px;
+}
+.userinfobody .seperateline {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #d12a3e;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    margin: auto auto 10px;
+    text-align: center;
+    width: 96%;
+}
+.userinfobody .forgetformheight {
+    height: 162px;
+}
+.userinfobody .userinfoform {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    margin: auto;
+    width: 360px;
+}
+.userinfobody .userinfotable {
+    margin: 10px auto auto;
+    width: 300px;
+}
+.userinfobody table.userinfotable tr td {
+    font-family: "宋体";
+    font-size: 12px;
+    height: 21px;
+}
+.userinfobody table.userinfotable input.username {
+    background: rgba(0, 0, 0, 0) url("../img/login-icon1.png") no-repeat scroll -2px -1px;
+    padding-left: 45px;
+}
+.userinfobody table.userinfotable input.input {
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    height: 30px;
+    margin-bottom: 8px;
+    /*padding-left: 10px;*/
+    width: 236px;
+}
+.userinfobody table.userinfotable a:link {
+    color: #005da7;
+}
+.userinfobody table.userinfotable a {
+    color: #005da7;
+    text-decoration: none;
+}
+.userinfobody .promotion {
+    background-color: #fff4f4;
+    border: 1px solid #e3e3e3;
+    color: rgb(209, 42, 62);
+    display: none;
+    margin-left: 1px;
+    margin-top: 13px;
+    padding-left: 5px;
+    position: absolute;
+    width: 241px;
+    z-index: 3;
+}
+.userinfobody .userinfosubmit {
+    background-color: #e54631;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 35px;
+    text-align: center;
+    width: 250px;
+}
+.forget_psw_next {
+    background-color: #999;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 135px;
+}
+.userinfobody table.userinfotable input.password {
+    background: rgba(0, 0, 0, 0) url("../img/login-icon2.png") no-repeat scroll -2px -1px;
+    padding-left: 45px;
+}
+.userinfobody .pagefoot1 {
+    font-family: "宋体";
+    height: 30px;
+    line-height: 36px;
+    margin: 5px auto;
+    text-align: right;
+    width: 360px;
+}
+.userinfobody .pagefoot2 {
+    border: 1px solid #f4825c;
+    color: #f4825c;
+    cursor: pointer;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+    margin-top: 2px;
+    text-align: center;
+    width: 80px;
+}
