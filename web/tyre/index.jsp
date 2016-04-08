@@ -124,12 +124,7 @@
 <!--<![endif]-->
 <!--[if lte IE 8 ]>
 <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-<script src="<%=ctx%>/assets/js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
-<script src="<%=ctx%>/assets/js/amazeui.min.js"></script>
-<script src="http://open.cootekservice.com/res/js/lib/ctk-1.0.0.js"></script>
-<script src="<%=ctx%>/js/config.js"></script>
 </body>
 <script type="text/javascript">
     $(function(){

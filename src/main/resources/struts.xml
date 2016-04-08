@@ -23,8 +23,5 @@
 		<action name="displayPic" class="com.smart4c.action.common.ImageMgmtAction" method="displayPic"></action>
     </package>
     
-    <include file="struts_former.xml" />
-    <include file="struts_admin.xml" />
-	<include file="struts_app.xml" />
 	<include file="struts_tyre.xml" />
 </struts>
