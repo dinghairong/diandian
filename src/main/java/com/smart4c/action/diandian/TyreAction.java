@@ -2,7 +2,6 @@ package com.smart4c.action.diandian;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.smart4c.bean.Area;
-import com.smart4c.bean.AreaDetail;
 import com.smart4c.bean.Store;
 import com.smart4c.dao.AreaDao;
 import com.smart4c.dao.StoreDao;
